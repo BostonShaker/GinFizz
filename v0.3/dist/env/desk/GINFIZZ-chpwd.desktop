@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment=GINFIZZ change password
+Comment[de]=GINFIZZ Kennwort ändern
+Exec=~/bin/GINFIZZ-chpwd.sh
+GenericName=GINFIZZ change password
+GenericName[de]=GINFIZZ Kennwort ändern
+Icon=@H@/.ginfizz/icons/GINFIZZ-chpwd.svg
+Name=GINFIZZ-chpwd
+NoDisplay=false
+Path[$e]=
+StartupNotify=false
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

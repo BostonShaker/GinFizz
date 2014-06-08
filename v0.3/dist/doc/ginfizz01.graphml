@@ -1,0 +1,2033 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yFiles for Java 2.11-->
+  <key for="graphml" id="d0" yfiles.type="resources"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key attr.name="Beschreibung" attr.type="string" for="graph" id="d7"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d7"/>
+    <node id="n0">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="81.9858746258297" width="111.79891679418415" x="1558.7223456627087" y="331.78178267522065"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="178.19921875" x="119.79891679418415" y="-2.9133126870851243">GinFizz-
+ Sperren</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n1">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="76.13600534138746" width="103.82182254016779" x="1562.117358786068" y="203.42032074235766"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="267.91796875" x="111.82182254016789" y="-5.838247329306284">GinFizz-
+ Freischalten</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="2"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n2">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="81.11535806261648" width="110.61184878688654" x="1558.7223456627087" y="84.27635704848008"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="337.896484375" x="118.61184878688664" y="-3.34857096869176">GinFizz-
+ Datensicherung</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="3"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n3">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="79.36852255441416" width="108.229800433729" x="1562.770959337345" y="-33.12077113719518"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="344.611328125" x="116.229800433729" y="-4.221988722792929">GinFizz-
+ Synchronisation</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="4"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n4">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="92.90722533987308" width="77.43276328740149" x="1570.5524612875865" y="-170.489261354581"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="25.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="154.416015625" x="102.43276328740149" y="2.547362669936547">lesbare
+Daten</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n5">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="88.16554104061584" width="73.47128550844313" x="1572.5332001770657" y="-288.65480239519684"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="25.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="284.8984375" x="98.47128550844309" y="0.17652052030791765">verschüsselte
+Daten</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n6">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="1617.985224574988" y="819.6285432198125"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="120" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="sides" modelPosition="s" textColor="#000000" visible="true" width="73.609375" x="-21.8046875" y="34.0">?</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n7">
+      <data key="d5"/>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="30.0" width="30.0" x="1369.2086614173224" y="51.18110236220474"/>
+          <y:Fill hasColor="false" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="120" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="sides" modelPosition="s" textColor="#000000" visible="true" width="73.609375" x="-21.8046875" y="34.0">?</y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n8">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.73810728058118" width="193.27923175481374" x="-936.9102726122296" y="737.0905980911588"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="94.63961587740687" y="145.73810728058118"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="2"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n9">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.73810728058118" width="193.27923175481374" x="-936.9102726122296" y="521.745409161524"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="94.63961587740687" y="145.73810728058118"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.73810728058118" width="193.27923175481374" x="606.2510945838262" y="736.9421102467666"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="94.63961587740687" y="145.73810728058118"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="2"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.73810728058118" width="193.27923175481374" x="606.2510945838262" y="521.5969213171318"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="94.63961587740687" y="145.73810728058118"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n12">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="92.90722533987308" width="77.43276328740149" x="1656.040909277353" y="939.4563338961399"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="36.71638164370074" y="96.90722533987298"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n13">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="92.90722533987308" width="77.43276328740149" x="1714.6528530273517" y="914.2520766939912"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="36.71638164370074" y="96.9072253398731"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n14">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="92.90722533987308" width="77.43276328740149" x="1771.079971777353" y="889.0478194918425"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="36.71638164370074" y="96.9072253398731"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n15">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-713.6310408574157" y="768.7967076748623"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n16">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-655.0190971074169" y="743.5924504727136"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n17">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-598.5919783574157" y="718.3881932705649"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n18">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="88.16554104061584" width="73.47128550844313" x="1647.985224574988" y="761.4630021791968"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="34.735642754221544" y="92.16554104061584"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="88.16554104061584" width="73.47128550844313" x="1706.0197422412905" y="736.4098375063448"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="34.735642754221544" y="92.16554104061584"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n20">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="88.16554104061584" width="73.47128550844313" x="1765.8528363330886" y="711.3566728334929"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="34.735642754221544" y="92.16554104061584"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n21">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="-717.8738647445665" y="546.947061678768"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n22">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="-659.839347078264" y="521.8938970059161"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n23">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="-600.0062529864659" y="496.8407323330641"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n24">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-869.978748482677" y="-454.2312320662255"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n25">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-811.3668047326782" y="-479.4354892683742"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n26">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-754.939685982677" y="-504.63974647052294"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n27">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="344.75869495477593" y="789.2052220791597"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n28">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="403.3706387047747" y="764.000964877011"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n29">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="459.79775745477593" y="738.7967076748623"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="5"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n30">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="340.5158710676251" y="546.947061678768"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n31">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="398.55038873392755" y="521.8938970059161"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n32">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="458.38348282572565" y="496.8407323330641"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n33">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="484.97177736120045" y="-316.87722827352593"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n34">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="543.0062950275029" y="-341.9303929463779"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n35">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="602.839389119301" y="-366.9835576192298"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n36">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="620.5092225590763" width="835.336428771599" x="213.35123050030427" y="-606.5176031028695"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="157.1875" x="339.0744643857995" y="624.5092225590763">Cloud</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="7"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n37">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="686.5795241889681" width="411.94770717992054" x="1536.7815314055517" y="553.1518088675772"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="335.828125" x="38.0597910899603" y="690.5795241889681">Smartphone</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="8"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n38">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="899.887413267237" width="1038.331573564303" x="-1273.0130602648298" y="398.4073703414243"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="317.5" x="360.4157867821515" y="903.8874132672371">Desktop-PC</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="9"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n39">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="967.8863901506993" width="1451.8295289777907" x="-94.89531960279169" y="323.86796881170756"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="281.9453125" x="584.9421082388953" y="971.8863901506993">Laptop-PC</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="10"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n40">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="575.6312866210939" width="690.7575316485021" x="-1099.2260393069294" y="-582.3472365272776"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="403.9140625" x="143.4217345742511" y="579.6312866210939">ext. Festplatte</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="11"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n41">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="624.2932569786002" width="447.673690795898" x="1049.0466856768362" y="-78.66172929177566"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="221.836845397949" y="628.2932569786001"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="12"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n42">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="667.3299936876451" width="258.08069416452497" x="309.881743394866" y="-164.7352027098654"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="127.04034708226249" y="671.3299936876451"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="13"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n43">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="488.1974824416988" width="718.3502510532933" x="-408.46850765842726" y="-89.79011210027448"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="357.17512552664664" y="492.1974824416988"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="14"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n44">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="500.35003945625664" width="156.2851692860521" x="-1099.2260393069294" y="-72.52697352823111"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="76.14258464302611" y="504.35003945625664"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="15"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n45">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="157.8252468414759" width="215.2162396288295" x="-1036.0200929526036" y="178.67635012912825"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="105.60811981441475" y="161.82524684147592"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="3"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n46">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="164.7197352247166" width="224.61781443197924" x="-202.68054183676577" y="6.288677316664916"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="110.30890721598962" y="168.7197352247166"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="4"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n47">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="164.7197352247166" width="224.61781443197924" x="398.6497931410256" y="108.94924414492505"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="110.30890721598962" y="168.7197352247166"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="4"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n48">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="106.14922756618927" width="106.14922756618927" x="1550.6424555495878" y="-554.2205566753839"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="306.1328125" x="114.14922756618921" y="9.168363783094605">Übertragung
+lesbarer Daten</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="16"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n49">
+      <data key="d5"/>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="99.41652671399777" width="99.07580374169538" x="1559.7309410604396" y="-418.0713291091946"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="383.318359375" x="107.07580374169538" y="5.802013356998884">Übertr. ver-
+schlüsselter Daten</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="17"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <edge id="e0" source="n10" target="n10">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="740.5511811023616" y="881.4182455361108"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n8" target="n8">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="-802.6101860936942" y="881.566733380503"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d0">
+    <y:Resources>
+      <y:Resource id="1">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1950 1950"
+   id="svg2989"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="x_wolke_lock.svg"&gt;
+  &lt;metadata
+     id="metadata2999"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs2997" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview2995"
+     showgrid="false"
+     inkscape:zoom="0.26339286"
+     inkscape:cx="960"
+     inkscape:cy="897.89831"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2989" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,15.186441,1405.4576)"
+     id="g2991"
+     style="fill:#002163;fill-opacity:1"&gt;
+    &lt;path
+       d="M 1920,384 Q 1920,225 1807.5,112.5 1695,0 1536,0 H 448 Q 263,0 131.5,131.5 0,263 0,448 0,580 71,689.5 142,799 258,853 q -2,28 -2,43 0,212 150,362 150,150 362,150 158,0 286.5,-88 128.5,-88 187.5,-230 70,62 166,62 106,0 181,-75 75,-75 75,-181 0,-75 -41,-138 129,-30 213,-134.5 84,-104.5 84,-239.5 z"
+       id="path2993"
+       inkscape:connector-curvature="0"
+       style="fill:#002163;fill-opacity:1" /&gt;
+  &lt;/g&gt;
+  &lt;g
+     transform="matrix(0.63058552,0,0,-0.63058552,593.35591,1224.8474)"
+     id="g2991-3"
+     style="fill:#ffcc00"&gt;
+    &lt;path
+       d="m 704,512 q 0,53 -37.5,90.5 Q 629,640 576,640 523,640 485.5,602.5 448,565 448,512 q 0,-37 19,-67 19,-30 51,-47 L 449,169 q -5,-15 5,-28 10,-13 26,-13 h 192 q 16,0 26,13 10,13 5,28 l -69,229 q 32,17 51,47 19,30 19,67 z M 320,768 h 512 v 192 q 0,106 -75,181 -75,75 -181,75 -106,0 -181,-75 -75,-75 -75,-181 V 768 z m 832,-96 V 96 Q 1152,56 1124,28 1096,0 1056,0 H 96 Q 56,0 28,28 0,56 0,96 v 576 q 0,40 28,68 28,28 68,28 h 32 v 192 q 0,184 132,316 132,132 316,132 184,0 316,-132 132,-132 132,-316 V 768 h 32 q 40,0 68,-28 28,-28 28,-68 z"
+       id="path2993-9"
+       inkscape:connector-curvature="0"
+       style="fill:#ffcc00" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="2">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1950 1950"
+   id="svg2989"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="x_wolke_unlock.svg"&gt;
+  &lt;metadata
+     id="metadata2999"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs2997" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview2995"
+     showgrid="false"
+     inkscape:zoom="0.26339286"
+     inkscape:cx="960"
+     inkscape:cy="897.89831"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2989" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,15.186441,1405.4576)"
+     id="g2991"
+     style="fill:#002163;fill-opacity:1"&gt;
+    &lt;path
+       d="M 1920,384 Q 1920,225 1807.5,112.5 1695,0 1536,0 H 448 Q 263,0 131.5,131.5 0,263 0,448 0,580 71,689.5 142,799 258,853 q -2,28 -2,43 0,212 150,362 150,150 362,150 158,0 286.5,-88 128.5,-88 187.5,-230 70,62 166,62 106,0 181,-75 75,-75 75,-181 0,-75 -41,-138 129,-30 213,-134.5 84,-104.5 84,-239.5 z"
+       id="path2993"
+       inkscape:connector-curvature="0"
+       style="fill:#002163;fill-opacity:1" /&gt;
+  &lt;/g&gt;
+  &lt;g
+     transform="matrix(0.61917744,0,0,-0.61917744,474.03388,1259.017)"
+     id="g3400"
+     style="fill:#ffcc00"&gt;
+    &lt;path
+       d="m 704,160 q 0,6 -15,57 -15,51 -35,115.5 -20,64.5 -20,65.5 32,16 51,47 19,31 19,67 0,53 -37.5,90.5 Q 629,640 576,640 523,640 485.5,602.5 448,565 448,512 q 0,-36 19,-66.5 19,-30.5 51,-47.5 0,-2 -20,-66 -20,-64 -35,-115 -15,-51 -15,-57 0,-13 9.5,-22.5 Q 467,128 480,128 h 192 q 13,0 22.5,9.5 9.5,9.5 9.5,22.5 z m 960,800 V 704 q 0,-26 -19,-45 -19,-19 -45,-19 h -64 q -26,0 -45,19 -19,19 -19,45 v 256 q 0,106 -75,181 -75,75 -181,75 -106,0 -181,-75 -75,-75 -75,-181 V 768 h 96 q 40,0 68,-28 28,-28 28,-68 V 96 Q 1152,56 1124,28 1096,0 1056,0 H 96 Q 56,0 28,28 0,56 0,96 v 576 q 0,40 28,68 28,28 68,28 h 672 v 192 q 0,185 131.5,316.5 131.5,131.5 316.5,131.5 185,0 316.5,-131.5 Q 1664,1145 1664,960 z"
+       id="path3402"
+       inkscape:connector-curvature="0"
+       style="fill:#ffcc00" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="3">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1950 1950"
+   id="svg2989"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="x_wolke_backup.svg"&gt;
+  &lt;metadata
+     id="metadata2999"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs2997" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview2995"
+     showgrid="false"
+     inkscape:zoom="0.26339286"
+     inkscape:cx="960"
+     inkscape:cy="897.89831"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2989" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,15.186441,1405.4576)"
+     id="g2991"
+     style="fill:#002163;fill-opacity:1"&gt;
+    &lt;path
+       d="M 1920,384 Q 1920,225 1807.5,112.5 1695,0 1536,0 H 448 Q 263,0 131.5,131.5 0,263 0,448 0,580 71,689.5 142,799 258,853 q -2,28 -2,43 0,212 150,362 150,150 362,150 158,0 286.5,-88 128.5,-88 187.5,-230 70,62 166,62 106,0 181,-75 75,-75 75,-181 0,-75 -41,-138 129,-30 213,-134.5 84,-104.5 84,-239.5 z"
+       id="path2993"
+       inkscape:connector-curvature="0"
+       style="fill:#002163;fill-opacity:1" /&gt;
+  &lt;/g&gt;
+  &lt;g
+     transform="matrix(0.62281075,0,0,-0.62281075,458.30512,1221.5933)"
+     id="g3039"
+     style="fill:#ffcc00"&gt;
+    &lt;path
+       d="m 1040,320 q 0,-33 -23.5,-56.5 Q 993,240 960,240 927,240 903.5,263.5 880,287 880,320 q 0,33 23.5,56.5 23.5,23.5 56.5,23.5 33,0 56.5,-23.5 Q 1040,353 1040,320 z m 256,0 q 0,-33 -23.5,-56.5 Q 1249,240 1216,240 q -33,0 -56.5,23.5 -23.5,23.5 -23.5,56.5 0,33 23.5,56.5 23.5,23.5 56.5,23.5 33,0 56.5,-23.5 Q 1296,353 1296,320 z m 112,-160 v 320 q 0,13 -9.5,22.5 -9.5,9.5 -22.5,9.5 H 160 q -13,0 -22.5,-9.5 Q 128,493 128,480 V 160 q 0,-13 9.5,-22.5 Q 147,128 160,128 h 1216 q 13,0 22.5,9.5 9.5,9.5 9.5,22.5 z M 178,640 h 1180 l -157,482 q -4,13 -16,21.5 -12,8.5 -26,8.5 H 377 q -14,0 -26,-8.5 -12,-8.5 -16,-21.5 z M 1536,480 V 160 Q 1536,94 1489,47 1442,0 1376,0 H 160 Q 94,0 47,47 0,94 0,160 v 320 q 0,25 16,75 l 197,606 q 17,53 63,86 46,33 101,33 h 782 q 55,0 101,-33 46,-33 63,-86 l 197,-606 q 16,-50 16,-75 z"
+       id="path3041"
+       inkscape:connector-curvature="0"
+       style="fill:#ffcc00" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="4">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1950 1950"
+   id="svg2989"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="x_wolke_sync.svg"&gt;
+  &lt;metadata
+     id="metadata2999"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs2997" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview2995"
+     showgrid="false"
+     inkscape:zoom="0.26339286"
+     inkscape:cx="960"
+     inkscape:cy="899.79662"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2989" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,15.186441,1405.4576)"
+     id="g2991"
+     style="fill:#002163;fill-opacity:1"&gt;
+    &lt;path
+       d="M 1920,384 Q 1920,225 1807.5,112.5 1695,0 1536,0 H 448 Q 263,0 131.5,131.5 0,263 0,448 0,580 71,689.5 142,799 258,853 q -2,28 -2,43 0,212 150,362 150,150 362,150 158,0 286.5,-88 128.5,-88 187.5,-230 70,62 166,62 106,0 181,-75 75,-75 75,-181 0,-75 -41,-138 129,-30 213,-134.5 84,-104.5 84,-239.5 z"
+       id="path2993"
+       inkscape:connector-curvature="0"
+       style="fill:#002163;fill-opacity:1" /&gt;
+  &lt;/g&gt;
+  &lt;g
+     transform="matrix(0.59216102,0,0,-0.59216102,503.86439,1205.4577)"
+     id="g4"
+     style="fill:#ffcc00"&gt;
+    &lt;path
+       d="m 1511,480 q 0,-5 -1,-7 Q 1446,205 1242,38.5 1038,-128 764,-128 618,-128 481.5,-73 345,-18 238,84 L 109,-45 Q 90,-64 64,-64 38,-64 19,-45 0,-26 0,0 v 448 q 0,26 19,45 19,19 45,19 h 448 q 26,0 45,-19 19,-19 19,-45 0,-26 -19,-45 L 420,266 q 71,-66 161,-102 90,-36 187,-36 134,0 250,65 116,65 186,179 11,17 53,117 8,23 30,23 h 192 q 13,0 22.5,-9.5 9.5,-9.5 9.5,-22.5 z m 25,800 V 832 q 0,-26 -19,-45 -19,-19 -45,-19 h -448 q -26,0 -45,19 -19,19 -19,45 0,26 19,45 l 138,138 Q 969,1152 768,1152 634,1152 518,1087 402,1022 332,908 321,891 279,791 271,768 249,768 H 50 Q 37,768 27.5,777.5 18,787 18,800 v 7 q 65,268 270,434.5 205,166.5 480,166.5 146,0 284,-55.5 138,-55.5 245,-156.5 l 130,129 q 19,19 45,19 26,0 45,-19 19,-19 19,-45 z"
+       id="path6"
+       inkscape:connector-curvature="0"
+       style="fill:#ffcc00" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="5">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1792 1792"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="File_alt_font_awesome.svg"&gt;
+  &lt;metadata
+     id="metadata12"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs10"&gt;
+    &lt;linearGradient
+       osb:paint="gradient"
+       id="linearGradient3771"&gt;
+      &lt;stop
+         id="stop3773"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" /&gt;
+      &lt;stop
+         id="stop3775"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" /&gt;
+    &lt;/linearGradient&gt;
+    &lt;linearGradient
+       id="linearGradient3759"
+       osb:paint="gradient"&gt;
+      &lt;stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3761" /&gt;
+      &lt;stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3763" /&gt;
+    &lt;/linearGradient&gt;
+  &lt;/defs&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.13169643"
+     inkscape:cx="-736.54237"
+     inkscape:cy="911.18646"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,242.98305,1285.4237)"
+     id="g4"
+     style="fill:#000000;fill-opacity:1;opacity:1;stroke:#000000;stroke-opacity:0.16216215"&gt;
+    &lt;path
+       d="m 1024,352 v -64 q 0,-14 -9,-23 -9,-9 -23,-9 H 288 q -14,0 -23,9 -9,9 -9,23 v 64 q 0,14 9,23 9,9 23,9 h 704 q 14,0 23,-9 9,-9 9,-23 z m 0,256 v -64 q 0,-14 -9,-23 -9,-9 -23,-9 H 288 q -14,0 -23,9 -9,9 -9,23 v 64 q 0,14 9,23 9,9 23,9 h 704 q 14,0 23,-9 9,-9 9,-23 z M 128,0 H 1152 V 768 H 736 q -40,0 -68,28 -28,28 -28,68 v 416 H 128 V 0 z m 640,896 h 299 L 768,1195 V 896 z M 1280,768 V -32 q 0,-40 -28,-68 -28,-28 -68,-28 H 96 q -40,0 -68,28 -28,28 -28,68 v 1344 q 0,40 28,68 28,28 68,28 h 544 q 40,0 88,-20 48,-20 76,-48 l 408,-408 q 28,-28 48,-76 20,-48 20,-88 z"
+       id="path6"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:0.16216215" /&gt;
+  &lt;/g&gt;
+  &lt;path
+     style="fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-width:7.59322023;stroke-opacity:0.11711713"
+     d="m 378.14238,902.83389 0,-634.0339 250.57627,0 250.57627,0 0,214.62694 c 0,312.04045 -17.92162,294.11882 294.11888,294.11882 l 214.6269,0 0,379.66105 0,379.661 -504.94916,0 -504.94916,0 0,-634.03391 z m 888.59472,363.98021 c 4.0729,-10.7125 7.4053,-30.9918 7.4053,-45.065 0,-14.0732 -3.3324,-34.3524 -7.4053,-45.065 l -7.4053,-19.4773 -375.78517,0 c -363.75647,0 -376.03679,0.47 -383.64556,14.6872 -9.9172,18.5305 -10.16105,69.3916 -0.45506,94.9201 l 7.40524,19.4774 376.24029,0 376.24026,0 7.4053,-19.4774 z m -6.9301,-247.1364 c 13.6625,-13.6624 15.5521,-22.74781 12.76,-61.34912 -2.0269,-28.02179 -7.4221,-47.93442 -14.1392,-52.18519 -6.0933,-3.85597 -173.4539,-6.92461 -381.21912,-6.98984 l -370.35743,-0.11627 -7.40528,19.47737 c -12.94255,34.0415 -9.04104,85.19195 7.78116,102.01415 14.76016,14.7602 25.31073,15.1864 375.86441,15.1864 356.93386,0 360.84446,-0.1662 376.71546,-16.0375 l 0,0 z"
+     id="path3777"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-256)" /&gt;
+  &lt;path
+     style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:7.59322023000000002;stroke-opacity:0.11711713000000000"
+     d="m 1015.9729,498.57188 0,-142.29591 140.4746,140.32063 c 77.261,77.17635 140.4745,141.20951 140.4745,142.29591 0,1.0864 -63.2135,1.97528 -140.4745,1.97528 l -140.4746,0 0,-142.29591 z"
+     id="path3779"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-256)" /&gt;
+  &lt;path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.59322023000000002;stroke-opacity:0.11711713000000000;opacity:1"
+     d="m 385.7356,902.83389 0,-626.44068 242.35733,0 242.35733,0 2.69727,210.71187 c 3.99018,311.71477 -15.1267,292.59788 296.58807,296.58807 l 210.7119,2.69727 0,371.44208 0,371.4421 -497.35596,0 -497.35594,0 0,-626.44071 z m 886.0736,370.16951 c 7.1491,-26.9008 7.1024,-75.7772 -0.098,-102.8998 l -5.6476,-21.2728 -379.04538,2.2897 c -268.65212,1.6228 -381.53987,4.7862 -387.61056,10.8618 -13.36013,13.3708 -17.36815,64.3872 -7.83878,99.7767 l 8.65058,32.1257 383.02029,0 383.02035,0 5.5493,-20.8813 -3e-4,0 z m -15.2658,-242.975 c 21.8265,-12.4916 27.5696,-32.948 21.546,-76.7449 -8.6588,-62.95666 25.5917,-57.72875 -397.93927,-60.74032 l -379.36107,-2.69748 -8.12845,29.27376 c -15.1223,54.46138 -3.64213,106.52634 24.8168,112.54924 8.9793,1.9004 23.15989,4.9969 31.51243,6.8812 8.35254,1.8842 167.24068,2.8715 353.08475,2.194 254.35081,-0.9274 341.99541,-3.5769 354.46881,-10.7155 z"
+     id="path3781"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-256)" /&gt;
+  &lt;path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.59322023;stroke-opacity:0.11711713"
+     d="m 1023.5661,502.37528 0,-130.89928 129.0848,128.91721 c 70.9966,70.90447 129.0847,129.80915 129.0847,130.89928 0,1.09015 -58.0881,1.98208 -129.0847,1.98208 l -129.0848,0 0,-130.89929 z"
+     id="path3783"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-256)" /&gt;
+  &lt;path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     d="m 393.32882,905.87117 0,-618.84746 235.38983,0 235.38983,0 0.20578,146.16949 c 0.36234,257.4143 10.89465,312.4008 65.01953,339.44959 19.8515,9.92076 151.71191,17.12306 411.24931,22.46274 l 32.2711,0.66394 0,364.47453 0,364.4746 -489.76267,0 -489.76271,0 0,-618.84743 z M 1273.8752,1289.828 c 8.4985,-15.8797 10.5215,-99.897 3.0745,-127.6856 l -4.5785,-17.0848 -332.07048,0 c -182.63874,0 -358.21648,2.2102 -390.17276,4.9115 l -58.10232,4.9114 -7.90866,29.3706 c -7.65653,28.4341 -4.28888,67.9262 8.7985,103.1794 l 6.34254,17.0847 383.37841,0 c 371.26367,0 383.62677,-0.4639 391.23877,-14.6872 l 0,0 z m -13.7162,-253.6209 c 33.6966,-16.427 36.2491,-109.46035 3.5649,-129.93032 -24.6926,-15.46486 -94.9477,-18.75688 -445.17474,-20.86002 l -322.71187,-1.93792 -10.42531,43.7211 c -8.90118,37.32921 -8.85963,47.83482 0.28421,71.85935 5.89022,15.47601 19.12399,32.49691 29.40837,37.82421 14.55827,7.541 97.72514,9.2183 375.58023,7.5743 196.28471,-1.1614 362.54821,-4.8742 369.47431,-8.2507 l -10e-5,0 z"
+     id="path3767"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-256)" /&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="6">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1792 1792"
+   id="svg2989"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="File_font_awesome.svg"&gt;
+  &lt;metadata
+     id="metadata2999"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs2997" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview2995"
+     showgrid="false"
+     inkscape:zoom="0.13169643"
+     inkscape:cx="896.00001"
+     inkscape:cy="896.00001"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2989" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,235.38983,1277.8305)"
+     id="g2991"&gt;
+    &lt;path
+       d="M 128,0 H 1152 V 768 H 736 q -40,0 -68,28 -28,28 -28,68 v 416 H 128 V 0 z m 640,896 h 299 L 768,1195 V 896 z M 1280,768 V -32 q 0,-40 -28,-68 -28,-28 -68,-28 H 96 q -40,0 -68,28 -28,28 -28,68 v 1344 q 0,40 28,68 28,28 68,28 h 544 q 40,0 88,-20 48,-20 76,-48 l 408,-408 q 28,-28 48,-76 20,-48 20,-88 z"
+       id="path2993"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" /&gt;
+  &lt;/g&gt;
+  &lt;path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.59322023;stroke-opacity:0.11711713"
+     d="m 370.54916,894.48135 0,-637.83051 250.16021,0 250.16022,0 2.31436,227.66216 2.31436,227.66217 23.44791,23.43633 c 12.89636,12.88998 36.815,26.53676 53.15255,30.32618 16.33755,3.78941 119.39953,6.97136 229.02663,7.07099 l 199.3221,0.18115 0,379.66098 0,379.6611 -504.94919,0 -504.94915,0 0,-637.83055 z"
+     id="path2990"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-256)" /&gt;
+  &lt;path
+     style="fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:3.68346572;stroke-opacity:0.11711713"
+     d="m 636.02479,1213.2977 c -6.51075,-1.8822 -16.04171,-8.9337 -21.17995,-15.6702 l -9.34214,-12.2483 0,-151.7782 c 0,-163.64785 0.21043,-165.56321 19.58147,-178.25564 4.89922,-3.21005 16.17243,-6.35694 25.05163,-6.99305 l 16.14405,-1.15658 2.01794,-71.82757 c 2.18736,-77.85815 4.60023,-89.54457 26.619,-128.92131 15.108,-27.01828 58.19618,-69.05956 85.55053,-83.47209 34.36951,-18.10867 61.61831,-24.77258 101.29529,-24.77258 61.33346,0 105.96254,18.9102 151.05879,64.00643 50.2302,50.23019 62.1374,83.02164 65.2179,179.60564 l 2.1443,67.22321 15.9045,0 c 13.2942,0 18.0411,2.13628 28.9197,13.01493 l 13.0148,13.01492 0,156.14179 0,156.142 -9.4454,11.2253 c -5.1949,6.1739 -15.5546,12.922 -23.0216,14.9959 -17.3417,4.8166 -472.80262,4.561 -489.53081,-0.2749 l 0,3e-4 z m 301.23203,-58.6622 c 10.4589,-5.5975 9.06963,-17.5406 -8.85184,-76.0935 l -15.97663,-52.1985 9.88552,-7.3087 c 13.66958,-10.1063 22.06764,-29.59767 22.06764,-51.21753 0,-38.8141 -37.70026,-68.37208 -76.1468,-59.70092 -50.90369,11.48059 -66.50387,75.16293 -27.03496,110.36045 l 10.3262,9.2087 -16.12038,51.5686 c -17.78451,56.8922 -19.44393,69.6081 -9.81582,75.216 8.47917,4.9387 102.48802,5.078 111.66707,0.1654 l 0,0 z m 69.74368,-366.23705 c 0,-75.74267 -4.9029,-92.42747 -36.42228,-123.94676 -60.81043,-60.81053 -164.16924,-44.01005 -201.89666,32.81737 -9.93044,20.22219 -10.36045,23.4432 -11.53421,86.38693 l -1.21912,65.38147 125.53613,0 125.53614,0 0,-60.63901 z"
+     id="path3751"
+     inkscape:connector-curvature="0" /&gt;
+  &lt;path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.59322023;stroke-opacity:0.11711713"
+     d="m 1008.3797,494.01595 0,-142.29591 140.4745,140.32063 c 77.2611,77.17634 140.4746,141.20951 140.4746,142.29591 0,1.0864 -63.2135,1.97527 -140.4746,1.97527 l -140.4745,0 0,-142.2959 z"
+     id="path2992"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-256)" /&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="7">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1950 1950"
+   id="svg2989"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="Cloud2_font_awesome.svg"&gt;
+  &lt;metadata
+     id="metadata2999"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs2997" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview2995"
+     showgrid="false"
+     inkscape:zoom="0.13169643"
+     inkscape:cx="-672.54236"
+     inkscape:cy="899.79661"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2989" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,15.186441,1405.4576)"
+     id="g2991"
+     style="opacity:1;fill:none;stroke:#000000;stroke-opacity:1;stroke-width:70.86614173;stroke-miterlimit:4;stroke-dasharray:none"&gt;
+    &lt;path
+       d="M 1920,384 Q 1920,225 1807.5,112.5 1695,0 1536,0 H 448 Q 263,0 131.5,131.5 0,263 0,448 0,580 71,689.5 142,799 258,853 q -2,28 -2,43 0,212 150,362 150,150 362,150 158,0 286.5,-88 128.5,-88 187.5,-230 70,62 166,62 106,0 181,-75 75,-75 75,-181 0,-75 -41,-138 129,-30 213,-134.5 84,-104.5 84,-239.5 z"
+       id="path2993"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-opacity:1;stroke-width:70.86614173;stroke-miterlimit:4;stroke-dasharray:none" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="8">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1792 1792"
+   id="svg3001"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="100%"
+   height="100%"
+   sodipodi:docname="mobile_phone_font_awesome.svg"&gt;
+  &lt;metadata
+     id="metadata3011"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs3009" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview3007"
+     showgrid="false"
+     inkscape:zoom="0.13169643"
+     inkscape:cx="896"
+     inkscape:cy="896"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3001" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,485.9661,1277.8305)"
+     id="g3003"&gt;
+    &lt;path
+       d="m 464,128 q 0,33 -23.5,56.5 Q 417,208 384,208 351,208 327.5,184.5 304,161 304,128 304,95 327.5,71.5 351,48 384,48 417,48 440.5,71.5 464,95 464,128 z m 208,160 v 704 q 0,13 -9.5,22.5 -9.5,9.5 -22.5,9.5 H 128 q -13,0 -22.5,-9.5 Q 96,1005 96,992 V 288 q 0,-13 9.5,-22.5 Q 115,256 128,256 h 512 q 13,0 22.5,9.5 9.5,9.5 9.5,22.5 z m -192,848 q 0,16 -16,16 H 304 q -16,0 -16,-16 0,-16 16,-16 h 160 q 16,0 16,16 z m 288,16 V 128 Q 768,76 730,38 692,0 640,0 H 128 Q 76,0 38,38 0,76 0,128 v 1024 q 0,52 38,90 38,38 90,38 h 512 q 52,0 90,-38 38,-38 38,-90 z"
+       id="path3005"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="9">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 2000 2000"
+   id="svg3013"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="100%"
+   height="100%"
+   sodipodi:docname="desktop_font_awesome.svg"&gt;
+  &lt;metadata
+     id="metadata3023"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs3021" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview3019"
+     showgrid="false"
+     inkscape:zoom="0.13169643"
+     inkscape:cx="960"
+     inkscape:cy="962.0834"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3013" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,37.966102,1447.8644)"
+     id="g3015"&gt;
+    &lt;path
+       d="m 1792,544 v 832 q 0,13 -9.5,22.5 -9.5,9.5 -22.5,9.5 H 160 q -13,0 -22.5,-9.5 Q 128,1389 128,1376 V 544 q 0,-13 9.5,-22.5 Q 147,512 160,512 h 1600 q 13,0 22.5,9.5 9.5,9.5 9.5,22.5 z m 128,832 V 288 q 0,-66 -47,-113 -47,-47 -113,-47 h -544 q 0,-37 16,-77.5 16,-40.5 32,-71 16,-30.5 16,-43.5 0,-26 -19,-45 -19,-19 -45,-19 H 704 q -26,0 -45,19 -19,19 -19,45 0,14 16,44 16,30 32,70 16,40 16,78 H 160 Q 94,128 47,175 0,222 0,288 v 1088 q 0,66 47,113 47,47 113,47 h 1600 q 66,0 113,-47 47,-47 47,-113 z"
+       id="path3017"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="10">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1950 1950"
+   id="svg3037"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="100%"
+   height="100%"
+   sodipodi:docname="laptop_font_awesome.svg"&gt;
+  &lt;metadata
+     id="metadata3047"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs3045" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview3043"
+     showgrid="false"
+     inkscape:zoom="0.13169643"
+     inkscape:cx="960"
+     inkscape:cy="896"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3037" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,15.186441,1405.4576)"
+     id="g3039"&gt;
+    &lt;path
+       d="m 416,256 q -66,0 -113,47 -47,47 -47,113 v 704 q 0,66 47,113 47,47 113,47 h 1088 q 66,0 113,-47 47,-47 47,-113 V 416 q 0,-66 -47,-113 -47,-47 -113,-47 H 416 z m -32,864 V 416 q 0,-13 9.5,-22.5 Q 403,384 416,384 h 1088 q 13,0 22.5,9.5 9.5,9.5 9.5,22.5 v 704 q 0,13 -9.5,22.5 -9.5,9.5 -22.5,9.5 H 416 q -13,0 -22.5,-9.5 Q 384,1133 384,1120 z M 1760,192 h 160 V 96 Q 1920,56 1873,28 1826,0 1760,0 H 160 Q 94,0 47,28 0,56 0,96 v 96 H 160 1760 z M 1040,96 q 16,0 16,16 0,16 -16,16 H 880 q -16,0 -16,-16 0,-16 16,-16 h 160 z"
+       id="path3041"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="11">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1792 1792"
+   id="svg3037"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="100%"
+   height="100%"
+   sodipodi:docname="hdd_font_awesome.svg"&gt;
+  &lt;metadata
+     id="metadata3047"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs3045" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview3043"
+     showgrid="false"
+     inkscape:zoom="0.13169643"
+     inkscape:cx="896"
+     inkscape:cy="896"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3037" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,121.49153,1277.8305)"
+     id="g3039"&gt;
+    &lt;path
+       d="m 1040,320 q 0,-33 -23.5,-56.5 Q 993,240 960,240 927,240 903.5,263.5 880,287 880,320 q 0,33 23.5,56.5 23.5,23.5 56.5,23.5 33,0 56.5,-23.5 Q 1040,353 1040,320 z m 256,0 q 0,-33 -23.5,-56.5 Q 1249,240 1216,240 q -33,0 -56.5,23.5 -23.5,23.5 -23.5,56.5 0,33 23.5,56.5 23.5,23.5 56.5,23.5 33,0 56.5,-23.5 Q 1296,353 1296,320 z m 112,-160 v 320 q 0,13 -9.5,22.5 -9.5,9.5 -22.5,9.5 H 160 q -13,0 -22.5,-9.5 Q 128,493 128,480 V 160 q 0,-13 9.5,-22.5 Q 147,128 160,128 h 1216 q 13,0 22.5,9.5 9.5,9.5 9.5,22.5 z M 178,640 h 1180 l -157,482 q -4,13 -16,21.5 -12,8.5 -26,8.5 H 377 q -14,0 -26,-8.5 -12,-8.5 -16,-21.5 z M 1536,480 V 160 Q 1536,94 1489,47 1442,0 1376,0 H 160 Q 94,0 47,47 0,94 0,160 v 320 q 0,25 16,75 l 197,606 q 17,53 63,86 46,33 101,33 h 782 q 55,0 101,-33 46,-33 63,-86 l 197,-606 q 16,-50 16,-75 z"
+       id="path3041"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="12">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
+
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="236.16336"
+   height="330.96753"
+   id="svg2983"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="arr_dbl_gr_000.svg"&gt;
+  &lt;defs
+     id="defs2985" /&gt;
+  &lt;sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6315132"
+     inkscape:cx="-172.44632"
+     inkscape:cy="162.49187"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" /&gt;
+  &lt;metadata
+     id="metadata2988"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-195.43111,-114.01944)"&gt;
+    &lt;path
+       style="fill:#80e800;fill-opacity:1;stroke:#000000;stroke-width:9.88821507;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 424.2158,390.38629 c 2.00664,26.69201 2.96936,49.00642 2.13943,49.58755 -1.61031,1.12754 -86.58234,-38.94205 -88.55484,-41.75907 -0.6434,-0.91885 2.80884,-4.83265 7.67158,-8.6973 l 8.84141,-7.02673 -61.57422,-88.55667 -61.57424,-88.5567 -9.52525,6.66966 c -5.96816,4.17894 -10.06101,5.90455 -10.95974,4.62101 -1.51757,-2.1673 -11.02916,-92.58904 -10.22619,-97.2147 0.34151,-1.96652 11.2658,2.1409 39.89574,15.00037 44.11679,19.81558 48.09067,21.7455 49.79919,24.18554 0.66131,0.94444 -3.07891,4.71512 -8.31153,8.37904 l -9.51397,6.66175 63.50486,90.69436 63.50489,90.69439 10.61714,-6.60671 10.61717,-6.60672 3.64857,48.53093 z"
+       id="path3756"
+       inkscape:connector-curvature="0" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="13">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
+
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="145.72597"
+   height="396.35806"
+   id="svg2983"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="arr_dbl_gr_000.svg"&gt;
+  &lt;defs
+     id="defs2985" /&gt;
+  &lt;sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6315132"
+     inkscape:cx="-104.92388"
+     inkscape:cy="192.84575"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" /&gt;
+  &lt;metadata
+     id="metadata2988"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-240.68741,-79.595702)"&gt;
+    &lt;path
+       style="fill:#80e800;fill-opacity:1;stroke:#000000;stroke-width:9.88821507;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 312.33335,434.40956 c -17.45518,20.29303 -32.55311,36.75245 -33.55089,36.57651 -1.93594,-0.34136 -33.68676,-88.75915 -33.0896,-92.14585 0.19476,-1.10467 5.40334,-1.43105 11.57455,-0.72529 l 11.22047,1.28316 19.07947,-106.15855 19.07947,-106.15862 -11.45153,-2.01921 c -7.17507,-1.26516 -11.28935,-2.93905 -11.01725,-4.48215 0.45942,-2.60561 57.67155,-73.269132 61.51017,-75.972177 1.63202,-1.14906 6.45227,9.479966 17.60367,38.817407 17.18356,45.20701 18.62886,49.38162 18.11159,52.31511 -0.20019,1.13544 -5.51121,1.15697 -11.80201,0.0477 l -11.43796,-2.01682 -19.22588,109.03531 -19.22588,109.03536 12.17911,2.8358 12.17911,2.83582 -31.73661,36.89646 z"
+       id="path3756"
+       inkscape:connector-curvature="0" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="14">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
+
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="330.95914"
+   height="236.1779"
+   id="svg2983"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="arr_dbl_gr_000.svg"&gt;
+  &lt;defs
+     id="defs2985" /&gt;
+  &lt;sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6315132"
+     inkscape:cx="-12.007892"
+     inkscape:cy="111.51713"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" /&gt;
+  &lt;metadata
+     id="metadata2988"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-147.77142,-158.44724)"&gt;
+    &lt;path
+       style="fill:#80e800;fill-opacity:1;stroke:#000000;stroke-width:9.88821507;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 202.37339,387.23972 c -26.69201,2.00666 -49.00642,2.96938 -49.58755,2.13944 -1.12755,-1.6103 38.94206,-86.58234 41.75907,-88.55484 0.91884,-0.64341 4.83265,2.80883 8.6973,7.67159 l 7.02674,8.8414 88.55666,-61.57421 88.55669,-61.57426 -6.66965,-9.52525 c -4.17894,-5.96814 -5.90456,-10.061 -4.62102,-10.95973 2.16731,-1.51758 92.58905,-11.02916 97.21471,-10.22618 1.96652,0.3415 -2.14091,11.26579 -15.00038,39.89572 -19.81557,44.1168 -21.74548,48.09067 -24.18554,49.7992 -0.94444,0.66132 -4.71511,-3.07892 -8.37903,-8.31154 l -6.66176,-9.51396 -90.69435,63.50486 -90.6944,63.50489 6.60672,10.61715 6.60671,10.61715 -48.53092,3.64857 z"
+       id="path3756"
+       inkscape:connector-curvature="0" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="15">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   viewBox="0 0 93.281248 298.62499"
+   version="1.0"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="glossy_white_arrow.svg"&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview19"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.79030206"
+     inkscape:cx="46.63675"
+     inkscape:cy="150.57783"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" /&gt;
+  &lt;defs
+     id="defs4"&gt;
+    &lt;linearGradient
+       id="linearGradient5828"
+       y2="471.73001"
+       gradientUnits="userSpaceOnUse"
+       y1="460.75"
+       x2="82.379997"
+       x1="141.60001"&gt;
+      &lt;stop
+         id="stop3184"
+         stop-color="#fff"
+         offset="0" /&gt;
+      &lt;stop
+         id="stop3186"
+         stop-color="#fff"
+         stop-opacity="0"
+         offset="1" /&gt;
+    &lt;/linearGradient&gt;
+    &lt;radialGradient
+       id="radialGradient4034"
+       gradientUnits="userSpaceOnUse"
+       cy="556.38"
+       cx="126.49"
+       gradientTransform="matrix(2.0916,0.39594,-1.3654,7.213,627.09,-3497.4)"
+       r="28.733999"&gt;
+      &lt;stop
+         id="stop3197"
+         stop-color="#fff"
+         offset="0" /&gt;
+      &lt;stop
+         id="stop3274"
+         stop-color="#f0f3f4"
+         offset=".417" /&gt;
+      &lt;stop
+         id="stop3199"
+         stop-color="#74878a"
+         offset="1" /&gt;
+    &lt;/radialGradient&gt;
+  &lt;/defs&gt;
+  &lt;g
+     id="layer1"
+     transform="translate(-245.28375,-178.6075)"
+     style="fill:#fc4848;fill-opacity:1;stroke:#000000;stroke-opacity:1"&gt;
+    &lt;g
+       id="g4004"
+       transform="translate(185.44,-196.33)"
+       style="fill:#fc4848;fill-opacity:1;stroke:#000000;stroke-opacity:1"&gt;
+      &lt;path
+         id="rect2568"
+         d="M 130.89,670.98 V 467.76 l 18.102,0.1213 -21.025,-43.535 -21.024,-43.535 -21.457,43.231 -21.47,43.252 18.94,0.1416 v 203.54 z"
+         style="fill:#fc4848;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.17640018;stroke-opacity:1"
+         inkscape:connector-curvature="0" /&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+  &lt;metadata
+     id="metadata3816"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="16">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   viewBox="0 0 229.96439 229.8981"
+   version="1.0"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="arr_sng_rd_000.svg"&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview19"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.79028885"
+     inkscape:cx="-109.95676"
+     inkscape:cy="127.66206"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" /&gt;
+  &lt;defs
+     id="defs4"&gt;
+    &lt;linearGradient
+       id="linearGradient5828"
+       y2="471.73001"
+       gradientUnits="userSpaceOnUse"
+       y1="460.75"
+       x2="82.379997"
+       x1="141.60001"&gt;
+      &lt;stop
+         id="stop3184"
+         stop-color="#fff"
+         offset="0" /&gt;
+      &lt;stop
+         id="stop3186"
+         stop-color="#fff"
+         stop-opacity="0"
+         offset="1" /&gt;
+    &lt;/linearGradient&gt;
+    &lt;radialGradient
+       id="radialGradient4034"
+       gradientUnits="userSpaceOnUse"
+       cy="556.38"
+       cx="126.49"
+       gradientTransform="matrix(2.0916,0.39594,-1.3654,7.213,627.09,-3497.4)"
+       r="28.733999"&gt;
+      &lt;stop
+         id="stop3197"
+         stop-color="#fff"
+         offset="0" /&gt;
+      &lt;stop
+         id="stop3274"
+         stop-color="#f0f3f4"
+         offset=".417" /&gt;
+      &lt;stop
+         id="stop3199"
+         stop-color="#74878a"
+         offset="1" /&gt;
+    &lt;/radialGradient&gt;
+  &lt;/defs&gt;
+  &lt;g
+     id="layer1"
+     transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,149.49475,-333.05879)"
+     style="fill:#fc4848;fill-opacity:1;stroke:#000000;stroke-opacity:1"&gt;
+    &lt;g
+       id="g4004"
+       transform="translate(185.44,-196.33)"
+       style="fill:#fc4848;fill-opacity:1;stroke:#000000;stroke-opacity:1"&gt;
+      &lt;path
+         id="rect2568"
+         d="M 130.89,670.98 V 467.76 l 18.102,0.1213 -21.025,-43.535 -21.024,-43.535 -21.457,43.231 -21.47,43.252 18.94,0.1416 v 203.54 z"
+         style="fill:#fc4848;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.17640018;stroke-opacity:1"
+         inkscape:connector-curvature="0" /&gt;
+    &lt;/g&gt;
+  &lt;/g&gt;
+  &lt;metadata
+     id="metadata3816"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="17">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
+
+&lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="287.07968"
+   height="288.09433"
+   id="svg2983"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="arr_dbl_gr_000.svg"&gt;
+  &lt;defs
+     id="defs2985" /&gt;
+  &lt;sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6315132"
+     inkscape:cx="-33.795053"
+     inkscape:cy="137.64255"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1" /&gt;
+  &lt;metadata
+     id="metadata2988"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-169.55858,-132.65624)"&gt;
+    &lt;path
+       style="fill:#80e800;fill-opacity:1;stroke:#000000;stroke-width:9.88821507;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 223.02713,405.01604 c -25.93805,6.6112 -47.74628,11.43414 -48.4627,10.71773 -1.39004,-1.39004 23.31558,-92.02918 25.74728,-94.46088 0.79314,-0.79319 5.24697,1.92698 9.89732,6.04477 l 8.45528,7.48689 76.51903,-76.01646 76.51907,-76.01651 -8.22238,-8.22237 c -5.1518,-5.1518 -7.56192,-8.88283 -6.45394,-9.9908 1.87085,-1.87087 89.26721,-26.93951 93.96204,-26.95197 1.99594,-0.005 -0.1521,11.4664 -7.84468,41.8944 -11.85372,46.88751 -13.06426,51.13613 -15.17056,53.24242 -0.81525,0.81526 -5.17813,-2.21338 -9.69502,-6.73027 l -8.21263,-8.21263 -78.289,78.28899 -78.28904,78.28903 8.35,9.30861 8.34999,9.30861 -47.16006,12.02044 z"
+       id="path3756"
+       inkscape:connector-curvature="0" /&gt;
+  &lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>

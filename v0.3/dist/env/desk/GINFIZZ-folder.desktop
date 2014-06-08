@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment=GINFIZZ open data directory
+Comment[de]=GINFIZZ Datenverzeichnis öffnen
+Exec=~/bin/GINFIZZ-folder.sh
+GenericName=GINFIZZ open data directory
+GenericName[de]=GINFIZZ Datenverzeichnis öffnen
+Icon=@H@/.ginfizz/icons/GINFIZZ-folder.svg
+Name=GINFIZZ-folder
+NoDisplay=false
+Path[$e]=
+StartupNotify=false
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

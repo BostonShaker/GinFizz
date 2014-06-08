@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment=GINFIZZ unlock data
+Comment[de]=GINFIZZ Datensperrung aufheben
+Exec=~/bin/GINFIZZ-unlock.sh
+GenericName=GINFIZZ unlock data
+GenericName[de]=GINFIZZ Datensperrung aufheben
+Icon=@H@/.ginfizz/icons/GINFIZZ-unlock.svg
+Name=GINFIZZ-unlock
+NoDisplay=false
+Path[$e]=
+StartupNotify=false
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

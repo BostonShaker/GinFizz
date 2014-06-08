@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment=GINFIZZ data backup
+Comment[de]=GINFIZZ Datensicherung
+Exec=~/bin/GINFIZZ-backup.sh
+GenericName=GINFIZZ data backup
+GenericName[de]=GINFIZZ Datensicherung
+Icon=@H@/.ginfizz/icons/GINFIZZ-backup.svg
+Name=GINFIZZ-backup
+NoDisplay=false
+Path[$e]=
+StartupNotify=false
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

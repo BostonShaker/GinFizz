@@ -1,0 +1,69 @@
+BSD 2-Clause License
+====================
+
+>>> DEUTSCH >>> DEUTSCH >>> DEUTSCH >>> DEUTSCH >>> DEUTSCH >>> DEUTSCH >>>
+
+Copyright (c) 2014, Dipl.-Ing. K.-H. Hofacker, Hamburg, Deutschland
+Alle Rechte vorbehalten.
+
+Weiterverbreitung in kompilierter oder nichtkompilierter Form, mit oder ohne 
+Veränderung, sind unter den folgenden Bedingungen zulässig:
+
+1. Weiterverbreitete nichtkompilierte Exemplare müssen das obere Copyright, die 
+   Liste der Bedingungen und den folgenden Verzicht im Sourcecode enthalten.
+
+2. Weiterverbreitete kompilierte Exemplare müssen das obere Copyright, die 
+   Liste der Bedingungen und den folgenden Verzicht in der Dokumentation 
+   und/oder anderen Materialien, die mit dem Exemplar verbreitet werden, 
+   enthalten.
+
+DIESE SOFTWARE WIRD VOM HERAUSGEBER UND DEN BEITRAGSLEISTENDEN OHNE JEGLICHE 
+SPEZIELLE ODER IMPLIZIERTE GARANTIEN ZUR VERFÜGUNG GESTELLT, DIE UNTER ANDEREM 
+EINSCHLIEßEN: DIE IMPLIZIERTE GARANTIE DER VERWENDBARKEIT DER SOFTWARE FÜR 
+EINEN BESTIMMTEN ZWECK. AUF KEINEN FALL SIND DIE VERWALTUNGSRÄTE ODER DIE 
+BEITRAGSLEISTENDEN FÜR IRGENDWELCHE DIREKTEN, INDIREKTEN, ZUFÄLLIGEN, 
+SPEZIELLEN, BEISPIELHAFTEN ODER FOLGENDEN SCHÄDEN (UNTER ANDEREM VERSCHAFFEN 
+VON ERSATZGÜTERN ODER -DIENSTLEISTUNGEN; EINSCHRÄNKUNG DER NUTZUNGSFÄHIGKEIT; 
+VERLUST VON NUTZUNGSFÄHIGKEIT; DATEN; PROFIT ODER GESCHÄFTSUNTERBRECHUNG), WIE 
+AUCH IMMER VERURSACHT UND UNTER WELCHER VERPFLICHTUNG AUCH IMMER, OB IN VERTRAG, 
+STRIKTER VERPFLICHTUNG ODER UNERLAUBTE HANDLUNG (INKLUSIVE FAHRLÄSSIGKEIT) 
+VERANTWORTLICH, AUS WELCHEM WEG SIE AUCH IMMER DURCH DIE BENUTZUNG DIESER 
+SOFTWARE ENTSTANDEN SIND, SOGAR, WENN SIE AUF DIE MÖGLICHKEIT EINES SOLCHEN 
+SCHADENS HINGEWIESEN WORDEN SIND.
+
+<<< DEUTSCH <<< DEUTSCH <<< DEUTSCH <<< DEUTSCH <<< DEUTSCH <<< DEUTSCH <<<
+
+>>> ENGLISH >>> ENGLISH >>> ENGLISH >>> ENGLISH >>> ENGLISH >>> ENGLISH >>>
+
+Copyright (c) 2014, Dipl.-Ing. K.-H. Hofacker, Hamburg, Germany
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, 
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this 
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice, 
+   this list of conditions and the following disclaimer in the documentation 
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE 
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR 
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES 
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON 
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT 
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+<<< ENGLISH <<< ENGLISH <<< ENGLISH <<< ENGLISH <<< ENGLISH <<< ENGLISH <<<
+
+Die SVG-Menü-Icons wurden entnommen aus / The SVG menu icons are taken from:
+
+Font Awesome 4.0.3
+Created by Dave Gandy (https://twitter.com/davegandy)
+Font Awesome licensed under SIL OFL 1.1 (http://scripts.sil.org/OFL)
+Code licensed under MIT License (http://opensource.org/licenses/mit-license.html)

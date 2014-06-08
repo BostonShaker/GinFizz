@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment=GINFIZZ lock data
+Comment[de]=GINFIZZ Daten sperren
+Exec=~/bin/GINFIZZ-lock.sh
+GenericName=GINFIZZ lock data
+GenericName[de]=GINFIZZ Daten sperren
+Icon=@H@/.ginfizz/icons/GINFIZZ-lock.svg
+Name=GINFIZZ-lock
+NoDisplay=false
+Path[$e]=
+StartupNotify=false
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

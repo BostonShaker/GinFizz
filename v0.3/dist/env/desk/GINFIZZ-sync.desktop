@@ -1,0 +1,16 @@
+[Desktop Entry]
+Comment=GINFIZZ Cloud synchronization
+Comment[de]=GINFIZZ Cloud-Synchronisation
+Exec=~/bin/GINFIZZ-sync.sh
+GenericName=GINFIZZ Cloud synchronization
+GenericName[de]=GINFIZZ Cloud-Synchronisation
+Icon=@H@/.ginfizz/icons/GINFIZZ-sync.svg
+Name=GINFIZZ-sync
+NoDisplay=false
+Path[$e]=
+StartupNotify=false
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
