@@ -7,7 +7,7 @@
 PRGRM="GINFIZZ"
 PRGRM_LWR="$(echo "${PRGRM}"|tr 'A-Z' 'a-z')"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.0"
+SCRIPT_VER="${PRGRM_VER}.1"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
@@ -42,7 +42,7 @@ RR='\E[0;31m'
 YY='\E[0;36m'
 ZZ='\e[0m'
 
-# *** iI18n ***
+# *** i18n ***
 
 LocTx()
 {

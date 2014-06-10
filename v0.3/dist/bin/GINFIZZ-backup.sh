@@ -6,7 +6,7 @@
 
 PRGRM="GINFIZZ"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.0"
+SCRIPT_VER="${PRGRM_VER}.1"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
@@ -18,7 +18,7 @@ DIR_TARGET=""
 TMP_MOUNT=0
 CLOC=""
 
-# *** iI18n ***
+# *** i18n ***
 
 LocTx()
 {
@@ -40,7 +40,7 @@ LocTx()
             E_Write)   echo "Keine ausreichenden Rechte am Verzeichnis '@0'." ;;
             M_NoData)  echo "Keine neuen oder veränderten Dateien gefunden." ;;
             M_Success) echo "Es wurden @0 Datei(en) gesichert." ;;
-            M_Title)   echo "${PRGRM}: Datensicherung" ;;
+            M_Title)   echo "${PRGRM}: Daten sichern" ;;
             Q_BckDir)  echo "${PRGRM}: Zielverzeichnis für die Datensicherung auswählen" ;;
             Q_HomeDir) echo "${PRGRM}: Soll die Datensicherung wirklich in das Home-Verzeichnis '${HOME}' erfolgen?" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Rückgabewert ist '${EXIT_CD}'." ;;
@@ -144,7 +144,7 @@ MsgOut()
    # perform GUI messages output using kdialog --passivepopup
 
    if [ -n "$1" ]; then
-      TMP_MSG="$(date +"%x %X"): $1"
+      TMP_MSG="$1 ($(date +"%c"))"
       TMP_TIME=$2
       TMP_TITLE=$3
       TMP_ICON=$4
@@ -249,10 +249,10 @@ while true; do
 
    # create empty log file
    echo " " > "${LOG_TEMP}"
-   echo "*** $(date -R) ***" >> "${LOG_FULL}"
+   echo "*** $(date -R) ***" >> "${LOG_TEMP}"
 
    # do the backup using RSYNC
-   rsync -qrthi --exclude="lost+found" --log-file="${LOG_FULL}" "${DIR_DATA}" "${DIR_TARGET}"
+   rsync -qrthi --exclude="lost+found" --log-file="${LOG_TEMP}" "${DIR_DATA}" "${DIR_TARGET}"
 
    # check if backup command reports an error
    if [ $? -ne 0 ]; then
@@ -261,10 +261,10 @@ while true; do
    fi
 
    # read number of saved files from log file
-   FILE_COUNT="$(cat "${LOG_FULL}" | grep -o ' >f' | wc -l)"
+   FILE_COUNT="$(cat "${LOG_TEMP}" | grep -o ' >f' | wc -l)"
 
    # append temp log file to main log file
-   cat "${LOG_FULL}" >> "${LOG_FULL}" 2>/dev/null
+   cat "${LOG_TEMP}" >> "${LOG_FULL}" 2>/dev/null
 
    # check if number of saved files is zero
    if [ ${FILE_COUNT} -lt 1 ]; then

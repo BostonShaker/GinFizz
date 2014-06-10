@@ -7,9 +7,10 @@
 PRGRM="GINFIZZ"
 PRGRM_LWR="$(echo "${PRGRM}"|tr 'A-Z' 'a-z')"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.0"
+SCRIPT_VER="${PRGRM_VER}.1"
 SCRIPT_NAME="$(basename $0)"
-SCRIPT_DIR=""
+SCRIPT_DIR="$(readlink -f "$0")"
+SCRIPT_DIR="$(dirname "${SCRIPT_DIR}")"
 EXIT_CD=0
 
 WDTH=90
@@ -23,15 +24,18 @@ DIR_ICONDIR="${DIR_APPDIR}/icons"
 DIR_CHIPHER="${DIR_BASE}/.chipher"
 DIR_CLOUD="${DIR_BASE}/.cloud"
 DIR_DATA="${DIR_BASE}/data"
+DIR_REUSE="${SCRIPT_DIR}/reuse"
 
 ENC_XML=".encfs6.xml"
 ENC_CONFIG="${DIR_BASE}/${ENC_XML}"
+ENC_REUSEFILE="${DIR_REUSE}/$(echo "${ENC_XML}" | sed 's/^\.//g')"
 
 DAV_GROUP="davfs2"
 DAV_SECFILE="secrets"
 DAV_FOLDER="${HOME}/.davfs2"
 DAV_CONFIG="${DAV_FOLDER}/davfs2.conf"
 DAV_SECRETS="${DAV_FOLDER}/${DAV_SECFILE}"
+DAV_REUSEFILE="${DIR_REUSE}/${DAV_SECFILE}"
 
 SCR_UNLOCK="${PRGRM}-unlock.sh"
 SCR_LOCK="${PRGRM}-lock.sh"
@@ -42,10 +46,10 @@ TMP_FILE2="${TMP_FOLDER}/temp2.tmp"
 
 DESKTOP_TYPE=""
 VERIFIED_INPUT=""
-ENC_REUSE=""
-DAV_REUSE=""
 LINUX_DESC=""
 LINUX_DIST=""
+DAV_REUSE=0
+ENC_REUSE=0
 PROGRAM_LIST=""
 TWO_INPUT=""
 CLOC=""
@@ -55,7 +59,7 @@ RR='\E[0;31m'
 YY='\E[0;36m'
 ZZ='\e[0m'
 
-# *** iI18n ***
+# *** i18n ***
 
 LocTx()
 {
@@ -645,10 +649,10 @@ ConfigureEncrypting()
 
    rm "${ENC_CONFIG}" > /dev/null 2>&1
 
-   if [ -n "${ENC_REUSE}" ]; then
+   if [ ${ENC_REUSE} -ne 0 ]; then
       # reuse existing .encfs6.xml
 
-      cp "${ENC_REUSE}" "${ENC_CONFIG}" > /dev/null 2>&1
+      cp "${ENC_REUSEFILE}" "${ENC_CONFIG}" > /dev/null 2>&1
       if [ $? -ne 0 ]; then return 1;  fi
    else
       # create new .encfs6.xml
@@ -858,7 +862,7 @@ ConfigureSynchronization()
    ## mount "${DIR_CLOUD}"
    ## fusermount -u "${DIR_CLOUD}"
 
-   if [ -z "${DAV_REUSE}" ]; then
+   if [ ${DAV_REUSE} -eq 0 ]; then
       TextOut "$(LocTx "M_DoSyn1" "${SCRIPT_DIR}")"
       InfoOut "$(LocTx "M_DoSyn2")"
 
@@ -867,7 +871,7 @@ ConfigureSynchronization()
       TwoChoicesInput "$(LocTx "Q_DoSyn")" "${TMP_Y}" "${TMP_N}"
 
       case "${TWO_INPUT}" in
-         "${TMP_Y}") echo "${WEBDAVURL} ${WEBDAVUSR}" > "${SCRIPT_DIR}/${DAV_SECFILE}"
+         "${TMP_Y}") echo "${WEBDAVURL} ${WEBDAVUSR}" > "${DAV_REUSEFILE}"
                      if [ $? -ne 0 ]; then return 1;  fi ;;
          "${TMP_N}") ;;
          *)          return 1 ;;
@@ -954,13 +958,9 @@ EncFsInput()
    # ask user for all encryption specifications
    TextOut "$(LocTx "M_InEnc")"
 
-   ENC_REUSE=""
    ENC_CONF=""
 
-   ENC_REUSE="$(echo "${ENC_XML}" | sed -e 's/^\.//g')"
-   ENC_REUSE="$(find "${SCRIPT_DIR}" -iname "${ENC_REUSE}")"
-
-   if [ -n "${ENC_REUSE}" ]; then
+   if [ ${ENC_REUSE} -ne 0 ]; then
       TextOut "$(LocTx "M_InEnc1" "${ENC_XML}")"
       WarnOut "$(LocTx "M_InEnc2" "${ENC_XML}")"
 
@@ -970,9 +970,11 @@ EncFsInput()
 
       case "${TWO_INPUT}" in
          "${TMP_Y}") ;;
-         "${TMP_N}") ENC_REUSE="" ;;
+         "${TMP_N}") ENC_REUSE=0 ;;
          *)        return 1 ;;
       esac
+   else
+   echo "AHA!"
    fi
 
    DoubleCheckedInput "$(LocTx "M_InEncIn")"
@@ -1045,11 +1047,16 @@ ScriptInit()
    CreateFolder "${TMP_FOLDER}" -q
    if [ $? -ne 0 ]; then return 1;  fi
 
-   SCRIPT_DIR="$(readlink -f "$0")"
-   SCRIPT_DIR="$(dirname "${SCRIPT_DIR}")"
-
    cd "${SCRIPT_DIR}"
    if [ $? -ne 0 ]; then return 1;  fi
+
+   if [  -f "${DAV_REUSEFILE}" ]; then
+      DAV_REUSE=1
+   fi
+
+   if [  -f "${ENC_REUSEFILE}" ]; then
+      ENC_REUSE=1
+   fi
 
    TextOut "$(LocTx "M_DoIniOk" "${SCRIPT_DIR}")"
 
@@ -1071,11 +1078,9 @@ DavFsInput()
 {
    # ask user for all WebDAV specifications
 
-   DAV_REUSE="$(find "${SCRIPT_DIR}" -iname "${DAV_SECFILE}")"
-
    TextOut "$(LocTx "M_InDav")"
 
-   if [ -n "${DAV_REUSE}" ]; then
+   if [ ${DAV_REUSE} -ne 0 ]; then
       TextOut "$(LocTx "M_InDavRe1" "${DAV_SECFILE}")"
       WarnOut "$(LocTx "M_InDavRe2")"
 
@@ -1085,16 +1090,16 @@ DavFsInput()
 
       case "${TWO_INPUT}" in
          "${TMP_Y}") ;;
-         "${TMP_N}") DAV_REUSE="" ;;
+         "${TMP_N}") DAV_REUSE=0 ;;
          *)        return 1 ;;
       esac
    fi
 
-   if [ -n "${DAV_REUSE}" ]; then
-      WEBDAVURL="$(head -n 1 "${DAV_REUSE}" | awk '{print $1}')"
+   if [ ${DAV_REUSE} -ne 0 ]; then
+      WEBDAVURL="$(head -n 1 "${DAV_REUSEFILE}" | awk '{print $1}')"
       TextOut "$(LocTx "M_InDavUrl" "${WEBDAVURL}")"
 
-      WEBDAVUSR="$(head -n 1 "${DAV_REUSE}" | awk '{print $2}')"
+      WEBDAVUSR="$(head -n 1 "${DAV_REUSEFILE}" | awk '{print $2}')"
       TextOut "$(LocTx "M_InDavUsr" "${WEBDAVUSR}")"
    else
       DoubleCheckedInput "$(LocTx "Q_InDavUrl")"

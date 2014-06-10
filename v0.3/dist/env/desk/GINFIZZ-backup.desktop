@@ -1,9 +1,9 @@
 [Desktop Entry]
 Comment=GINFIZZ data backup
-Comment[de]=GINFIZZ Datensicherung
+Comment[de]=GINFIZZ Daten sichern
 Exec=~/bin/GINFIZZ-backup.sh
 GenericName=GINFIZZ data backup
-GenericName[de]=GINFIZZ Datensicherung
+GenericName[de]=GINFIZZ Daten sichern
 Icon=@H@/.ginfizz/icons/GINFIZZ-backup.svg
 Name=GINFIZZ-backup
 NoDisplay=false

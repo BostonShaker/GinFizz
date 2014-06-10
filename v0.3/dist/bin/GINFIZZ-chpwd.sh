@@ -6,7 +6,7 @@
 
 PRGRM="GINFIZZ"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.0"
+SCRIPT_VER="${PRGRM_VER}.1"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
@@ -14,7 +14,7 @@ EXIT_CD=0
 TMP_FILE1="${TMPDIR}/${USER}.${PRGRM}.temp1.tmp"
 CLOC=""
 
-# *** iI18n ***
+# *** i18n ***
 
 LocTx()
 {
@@ -74,7 +74,7 @@ MsgOut()
    # perform GUI messages output using kdialog --passivepopup
 
    if [ -n "$1" ]; then
-      TMP_MSG="$(date +"%x %X"): $1"
+      TMP_MSG="$1 ($(date +"%c"))"
       TMP_TIME=$2
       TMP_TITLE=$3
       TMP_ICON=$4

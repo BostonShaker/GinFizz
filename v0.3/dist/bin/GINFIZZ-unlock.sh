@@ -6,14 +6,14 @@
 
 PRGRM="GINFIZZ"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.0"
+SCRIPT_VER="${PRGRM_VER}.1"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
 
 CLOC=""
 
-# *** iI18n ***
+# *** i18n ***
 
 LocTx()
 {
@@ -30,12 +30,12 @@ LocTx()
             E_Install) echo "${PRGRM} ist nicht oder nur unvollständig installiert." ;;
             E_Title)   echo "${PRGRM}: FEHLER beim Freischalten" ;;
             E_Unknown) echo "Unbekannter Fehler!?" ;;
-            M_Success) echo "Das Datenverzeichnis '${DIR_DATA}' ist nun freigeschaltet." ;;
+            M_Success) echo "Die Daten sind nun freigeschaltet." ;;
             M_Title)   echo "${PRGRM}: Freischalten" ;;
             Q_Passwd)  echo "${PRGRM}: Passwort zur Freischaltung des Datenverzeichnisses eingeben:" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Rückgabewert ist '${EXIT_CD}'." ;;
             T_Start)   echo "\n${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Start..." ;;
-            W_Mount)   echo "Das Datenverzeichnis '${DIR_DATA}' ist bereits freigeschaltet." ;;
+            W_Mount)   echo "Die Daten sind bereits freigeschaltet." ;;
             *)         echo "LocTx: $1 ??? (${CLOC})" ;;
          esac ;;
 
@@ -45,12 +45,12 @@ LocTx()
             E_Install) echo "${PRGRM} is not installed correctly." ;;
             E_Title)   echo "${PRGRM}: ERROR unlocking data" ;;
             E_Unknown) echo "Unknown error!?" ;;
-            M_Success) echo "The data directory '${DIR_DATA}' is now unlocked." ;;
+            M_Success) echo "Data files are now unlocked." ;;
             M_Title)   echo "${PRGRM}: Unlocking data" ;;
             Q_Passwd)  echo "${PRGRM}: Enter password to unlock data directory:" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) exit code is '${EXIT_CD}'." ;;
             T_Start)   echo "\n${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Begin..." ;;
-            W_Mount)   echo "The data directory '${DIR_DATA}' is already unlocked." ;;
+            W_Mount)   echo "The data files are already unlocked." ;;
             *)         echo "LocTx: $1 ??? (${CLOC})" ;;
          esac ;;
    esac
@@ -85,7 +85,7 @@ MsgOut()
    # perform GUI messages output using kdialog --passivepopup
 
    if [ -n "$1" ]; then
-      TMP_MSG="$(date +"%x %X"): $1"
+      TMP_MSG="$1 ($(date +"%c"))"
       TMP_TIME=$2
       TMP_TITLE=$3
       TMP_ICON=$4

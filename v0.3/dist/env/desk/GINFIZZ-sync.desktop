@@ -1,9 +1,9 @@
 [Desktop Entry]
-Comment=GINFIZZ Cloud synchronization
-Comment[de]=GINFIZZ Cloud-Synchronisation
+Comment=GINFIZZ synchronization
+Comment[de]=GINFIZZ Synchronisation
 Exec=~/bin/GINFIZZ-sync.sh
-GenericName=GINFIZZ Cloud synchronization
-GenericName[de]=GINFIZZ Cloud-Synchronisation
+GenericName=GINFIZZ synchronization
+GenericName[de]=GINFIZZ Synchronisation
 Icon=@H@/.ginfizz/icons/GINFIZZ-sync.svg
 Name=GINFIZZ-sync
 NoDisplay=false

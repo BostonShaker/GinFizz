@@ -6,7 +6,7 @@
 
 PRGRM="GINFIZZ"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.0"
+SCRIPT_VER="${PRGRM_VER}.1"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
@@ -15,7 +15,7 @@ CLOC=""
 SCR_UNLOCK="${PRGRM}-unlock.sh"
 TMP_UNLOCK=0
 
-# *** iI18n ***
+# *** i18n ***
 
 LocTx()
 {
@@ -37,7 +37,7 @@ LocTx()
             M_Title)   echo "${PRGRM}: Verzeichnis öffnen" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Rückgabewert ist '${EXIT_CD}'." ;;
             T_Start)   echo "\n${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Start..." ;;
-            W_Close)   echo "Der Ordner '${DIR_DATA}' sollte abschließend wieder gesperrt werden." ;;
+            W_Close)   echo "Die Daten sollten abschließend wieder gesperrt werden." ;;
             *)         echo "LocTx: $1 ??? (${CLOC})" ;;
          esac ;;
 
@@ -45,14 +45,14 @@ LocTx()
          case "$1" in
             E_Fail)    echo "Failed to open data directory '${DIR_DATA}'." ;;
             E_Install) echo "${PRGRM} is not installed correctly." ;;
-            E_Title)   echo "${PRGRM}: Error exploring data" ;;
+            E_Title)   echo "${PRGRM}: ERROR exploring data" ;;
             E_Unknown) echo "Unknown error!?" ;;
             E_Unlock)  echo "Failed to unlock data directory (wrong password or user cancellation)." ;;
             M_Success) echo "" ;; #no message at all
             M_Title)   echo "${PRGRM}: Explore data" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) exit code is '${EXIT_CD}'." ;;
             T_Start)   echo "\n${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Begin..." ;;
-            W_Close)   echo "Don't forget to lock folder '${DIR_DATA}' after work is finished." ;;
+            W_Close)   echo "Don't forget to relock data finally." ;;
             *)         echo "LocTx: $1 ??? (${CLOC})" ;;
          esac ;;
    esac
@@ -87,7 +87,7 @@ MsgOut()
    # perform GUI messages output using kdialog --passivepopup
 
    if [ -n "$1" ]; then
-      TMP_MSG="$(date +"%x %X"): $1"
+      TMP_MSG="$1 ($(date +"%c"))"
       TMP_TIME=$2
       TMP_TITLE=$3
       TMP_ICON=$4

@@ -1,9 +1,9 @@
 [Desktop Entry]
-Comment=GINFIZZ open data directory
-Comment[de]=GINFIZZ Datenverzeichnis öffnen
+Comment=GINFIZZ data directory
+Comment[de]=GINFIZZ Datenverzeichnis
 Exec=~/bin/GINFIZZ-folder.sh
-GenericName=GINFIZZ open data directory
-GenericName[de]=GINFIZZ Datenverzeichnis öffnen
+GenericName=GINFIZZ data directory
+GenericName[de]=GINFIZZ Datenverzeichnis
 Icon=@H@/.ginfizz/icons/GINFIZZ-folder.svg
 Name=GINFIZZ-folder
 NoDisplay=false

@@ -1,9 +1,9 @@
 [Desktop Entry]
 Comment=GINFIZZ unlock data
-Comment[de]=GINFIZZ Datensperrung aufheben
+Comment[de]=GINFIZZ Daten freischalten
 Exec=~/bin/GINFIZZ-unlock.sh
 GenericName=GINFIZZ unlock data
-GenericName[de]=GINFIZZ Datensperrung aufheben
+GenericName[de]=GINFIZZ Daten freischalten
 Icon=@H@/.ginfizz/icons/GINFIZZ-unlock.svg
 Name=GINFIZZ-unlock
 NoDisplay=false

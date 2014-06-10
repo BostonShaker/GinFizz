@@ -6,7 +6,7 @@
 
 PRGRM="GINFIZZ"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.0"
+SCRIPT_VER="${PRGRM_VER}.1"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
@@ -17,7 +17,7 @@ TMP_MOUNT=0
 LOG_STATUS=""
 CLOC=""
 
-# *** iI18n ***
+# *** i18n ***
 
 LocTx()
 {
@@ -36,9 +36,9 @@ LocTx()
             E_Install) echo "${PRGRM} ist nicht oder nur unvollständig installiert." ;;
             E_Net)     echo "Es besteht keine Verbindung zum Internet." ;;
             E_Open)    echo "Das Öffnen des Cloud-Zugriffs via '${DIR_CLOUD}' ist gescheitert." ;;
-            E_Title)   echo "${PRGRM}: FEHLER bei der Synchronisation" ;;
+            E_Title)   echo "${PRGRM}: FEHLER bei Synchronisation" ;;
             E_Unknown) echo "Unbekannter Fehler!?" ;;
-            M_Copy)    echo "Das lokale Verzeichnis '${DIR_CHIPHER}' ist leer. Der Inhalt des Cloud-Verzeichnisses '${DIR_CLOUD}' wird einmalig auf diesen Rechner kopiert. Dieser Vorgang kann einige Minuten dauern." ;;
+            M_Copy)    echo "Das lokale Datenverzeichnis ist leer. Die Daten werden nun einmalig aus der Cloud auf diesen Rechner kopiert. Dieser Vorgang kann einige Minuten dauern." ;;
             M_CopyOk)  echo "Alle Daten aus der Cloud wurden erfolgreich kopiert." ;;
             M_NoData)  echo "Keine neuen oder veränderten Dateien gefunden." ;;
             M_Sync)    echo "Synchronisation gestartet..." ;;
@@ -58,7 +58,7 @@ LocTx()
             E_Open)    echo "Failed to open cloud access through directory '${DIR_CLOUD}'." ;;
             E_Title)   echo "${PRGRM}: Synchronization ERROR" ;;
             E_Unknown) echo "Unknown error!?" ;;
-            M_Copy)    echo "The local directory '${DIR_CHIPHER}' is empty. The cloud data from '${DIR_CLOUD}' will now be copied once to this computer. This may take some time." ;;
+            M_Copy)    echo "The local data directory is empty. The cloud data will now be copied once to this computer. This may take some time." ;;
             M_CopyOk)  echo "All cloud data successfully copied to this computer." ;;
             M_NoData)  echo "No new or modified files found." ;;
             M_Sync)    echo "Synchronization started..." ;;
@@ -112,7 +112,7 @@ MsgOut()
    # perform GUI messages output using kdialog --passivepopup
 
    if [ -n "$1" ]; then
-      TMP_MSG="$(date +"%x %X"): $1"
+      TMP_MSG="$1 ($(date +"%c"))"
       TMP_TIME=$2
       TMP_TITLE=$3
       TMP_ICON=$4
@@ -215,15 +215,15 @@ while true; do
    fi
 
    # create temporary log file
-   echo " " > "${LOG_FULL}"
-   echo "*** $(date -R) ***" >> "${LOG_FULL}"
+   echo " " > "${LOG_TEMP}"
+   echo "*** $(date -R) ***" >> "${LOG_TEMP}"
 
    # inform the user about the syncronization process
    OUT_MSG="$(LocTx "M_Sync")"
    MsgOut "${OUT_MSG}" 1
 
    # do the syncronization
-   unison "${DIR_CHIPHER}" "${DIR_CLOUD}" -batch -ui text -ignore "Name lost+found" -times -perms 0 -prefer "${DIR_CHIPHER}" -log -logfile "${LOG_FULL}"
+   unison "${DIR_CHIPHER}" "${DIR_CLOUD}" -batch -ui text -ignore "Name lost+found" -times -perms 0 -prefer "${DIR_CHIPHER}" -log -logfile "${LOG_TEMP}"
    UNI_CD=$?
 
    # check for syncronization success
@@ -232,15 +232,15 @@ while true; do
       EXIT_CD=6
    else
       # check if any files transmitted
-      if [ $(wc -l "${LOG_FULL}" | grep -oE '^[0-9]+') -lt 3 ]; then
+      if [ $(wc -l "${LOG_TEMP}" | grep -oE '^[0-9]+') -lt 3 ]; then
          # if not: memorize that fact
          EXIT_CD=7
       else
          # read synchronization log
-         LOG_STATUS="$(grep -ie '^synchronization ' "${LOG_FULL}")"
+         LOG_STATUS="$(grep -ie '^synchronization ' "${LOG_TEMP}")"
 
          # check for logged synchronization errors
-         if [ $(grep -icP '((^| )(?<!0 )failed| error )' "${LOG_FULL}") -ne 0 ]; then
+         if [ $(grep -icP '((^| )(?<!0 )failed| error )' "${LOG_TEMP}") -ne 0 ]; then
             # wenn ja: merken!
             EXIT_CD=8
          fi
@@ -248,7 +248,7 @@ while true; do
    fi
 
    # append temporary log file to cumulative log file
-   cat "${LOG_FULL}" >> "${LOG_FULL}"
+   cat "${LOG_TEMP}" >> "${LOG_FULL}"
 
    # always try to unmount WebDAV directory
    sleep 3
