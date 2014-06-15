@@ -6,7 +6,7 @@
 
 PRGRM="GINFIZZ"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.1"
+SCRIPT_VER="${PRGRM_VER}.2"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
@@ -126,7 +126,7 @@ MsgOut()
       fi
 
       if [ -z "${TMP_ICON}" ]; then
-         TMP_ICON="dialog-information"
+         TMP_ICON="${PRGRM_ICON}"
       fi
 
       kdialog --passivepopup "${TMP_MSG}" ${TMP_TIME} --title="${TMP_TITLE}" --icon "${TMP_ICON}" 2>/dev/null
@@ -143,6 +143,12 @@ DIR_DATA=$(eval echo \$${PRGRM}_DATA)
 
 MSG_TITLE="$(LocTx "M_Title")"
 ERR_TITLE="$(LocTx "E_Title")"
+
+PRGRM_ICON="${DIR_APPDIR}/icons/${SCRIPT_NAME/.sh/.svg}"
+
+if [ ! -f "${PRGRM_ICON}" ]; then
+   PRGRM_ICON="dialog-information"
+fi
 
 XOUT=$(LocTx "T_Start"); echo -e "${XOUT}"
 
@@ -275,7 +281,7 @@ fi
 
 case "${EXIT_CD}" in
    0) OUT_MSG="${LOG_STATUS}"
-      OUT_TIME=3;  OUT_TITLE="${MSG_TITLE}"; OUT_ICON="dialog-information";;
+      OUT_TIME=3;  OUT_TITLE="${MSG_TITLE}"; OUT_ICON="${PRGRM_ICON}";;
 
    1) OUT_MSG="$(LocTx "E_Install")"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
@@ -296,7 +302,7 @@ case "${EXIT_CD}" in
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
 
    7) OUT_MSG="$(LocTx "M_NoData")"
-      OUT_TIME=3;  OUT_TITLE="${MSG_TITLE}"; OUT_ICON="dialog-information"; EXIT_CD=0;;
+      OUT_TIME=3;  OUT_TITLE="${MSG_TITLE}"; OUT_ICON="${PRGRM_ICON}"; EXIT_CD=0;;
 
    8) OUT_MSG="${LOG_STATUS}"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
