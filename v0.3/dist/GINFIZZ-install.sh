@@ -681,10 +681,10 @@ ConfigureEncrypting()
       TwoChoicesInput "$(LocTx "Q_DoEnc")" "${TMP_Y}" "${TMP_N}"
 
       case "${TWO_INPUT}" in
-         "${TMP_Y}") CopyFile "${ENC_CONFIG}" "${SCRIPT_DIR}" -f
-                   if [ $? -ne 0 ]; then return 1;  fi ;;
+         "${TMP_Y}") CopyFile "${ENC_CONFIG}" "${ENC_REUSEFILE}" -f
+                     if [ $? -ne 0 ]; then return 1;  fi ;;
          "${TMP_N}") ;;
-         *)        return 1 ;;
+         *)          return 1 ;;
       esac
    fi
 
