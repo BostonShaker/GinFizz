@@ -6,7 +6,7 @@
 
 PRGRM="GINFIZZ"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.2"
+SCRIPT_VER="${PRGRM_VER}.3"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
@@ -45,6 +45,7 @@ LocTx()
             Q_HomeDir) echo "${PRGRM}: Soll die Datensicherung wirklich in das Home-Verzeichnis '${HOME}' erfolgen?" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Rückgabewert ist '${EXIT_CD}'." ;;
             T_Start)   echo "\n${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Start..." ;;
+            W_Running) echo "Datensicherung läuft bereits - Abbruch der zweiten Instanz." ;;
             *)         echo "LocTx: $1 ??? (${CLOC})" ;;
          esac ;;
 
@@ -64,12 +65,35 @@ LocTx()
             Q_HomeDir) echo "${PRGRM}: really backup data in home directory '${HOME}'?" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) exit code is '${EXIT_CD}'." ;;
             T_Start)   echo "\n${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Begin..." ;;
+            W_Running) echo "Backup already running - second instance aborted." ;;
             *)         echo "LocTx: $1 ??? (${CLOC})" ;;
          esac ;;
    esac
 }
 
 # *** Worker ***
+
+EnsureEnvironment()
+{
+   # set environment if running under 'cron'
+
+   if [ -z "$(eval echo \$${PRGRM}_BASE)" ]; then
+      if [ -f "${HOME}/.profile" ]; then
+         source "${HOME}/.profile"
+      fi
+   fi
+}
+
+CheckRunning()
+{
+   # check if script already running
+
+   if [ $(ps ax|grep '/bin/bash $0'|grep -v 'grep') -lt 1 ]; then
+      return 0
+   else
+      return 1
+   fi
+}
 
 CheckEncFS()
 {
@@ -168,6 +192,8 @@ MsgOut()
 
 # *** Main program starts here ***
 
+EnsureEnvironment
+
 DIR_APPDIR=$(eval echo \$${PRGRM}_APPDIR)
 DIR_BASE=$(eval echo \$${PRGRM}_BASE)
 DIR_CHIPHER=$(eval echo \$${PRGRM}_CHIPHER)
@@ -191,7 +217,7 @@ while true; do
    # check installation
    CheckInstall
    if [ $? -ne 0 ]; then
-      EXIT_CD=1
+      EXIT_CD=2
       break
    fi
 
@@ -204,7 +230,7 @@ while true; do
       # check if data directory is mounted now
       CheckEncFS
       if [ $? -ne 0 ]; then
-         EXIT_CD=2
+         EXIT_CD=3
          break
       fi
 
@@ -229,7 +255,7 @@ while true; do
 
       # check if user cancelled the selection
       if [ -z "${DIR_TARGET}" ]; then
-         EXIT_CD=3
+         EXIT_CD=4
          break
       fi
    fi
@@ -238,7 +264,7 @@ while true; do
    if [ "${DIR_TARGET}" = "${HOME}" ]; then
       # ask user if that is ok
       if [ $(kdialog --warningcontinuecancel "${ASK_HOMEDIR/@0/${HOME}}" --title="${MSG_TITLE}" 2>/dev/null; echo $?) -ne 0 ]; then
-         EXIT_CD=3
+         EXIT_CD=4
          break
       fi
    fi
@@ -246,7 +272,7 @@ while true; do
    # check for sufficient rights on target directory
    CheckFolderReadWrite "${DIR_TARGET}"
    if [ $? -ne 0 ]; then
-      EXIT_CD=4
+      EXIT_CD=5
       break
    fi
 
@@ -262,7 +288,7 @@ while true; do
 
    # check if backup command reports an error
    if [ $? -ne 0 ]; then
-      EXIT_CD=5
+      EXIT_CD=6
       break
    fi
 
@@ -275,7 +301,7 @@ while true; do
    # check if number of saved files is zero
    if [ ${FILE_COUNT} -lt 1 ]; then
       # success, but no files
-      EXIT_CD=6
+      EXIT_CD=7
       break
    fi
 
@@ -293,6 +319,9 @@ case "${EXIT_CD}" in
    0) OUT_MSG="$(LocTx "M_Success")"
       OUT_MSG="${OUT_MSG/@0/${FILE_COUNT}}"
       OUT_TIME=3;  OUT_TITLE="${MSG_TITLE}"; OUT_ICON="${PRGRM_ICON}";;
+
+   1) OUT_MSG="$(LocTx "W_Running")"
+      OUT_TIME=5; OUT_TITLE="${MSG_TITLE}"; OUT_ICON="dialog-warning";;
 
    1) OUT_MSG="$(LocTx "E_Install")"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
