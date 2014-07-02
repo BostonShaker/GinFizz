@@ -15,13 +15,12 @@
   <graph edgedefault="directed" id="G">
     <data key="d7"/>
     <node id="n0">
-      <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="81.9858746258297" width="111.79891679418415" x="1558.7223456627087" y="331.78178267522065"/>
+          <y:Geometry height="159.22262220893367" width="217.1217514398536" x="1482.9095219583771" y="1118.3693250444103"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="178.19921875" x="119.79891679418415" y="-2.9133126870851243">GinFizz-
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="178.19921875" x="225.1217514398536" y="35.70506110446695">GinFizz-
  Sperren</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
@@ -31,13 +30,12 @@
       </data>
     </node>
     <node id="n1">
-      <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="76.13600534138746" width="103.82182254016779" x="1562.117358786068" y="203.42032074235766"/>
+          <y:Geometry height="153.15332858408573" width="208.84544218462395" x="1487.047676585992" y="877.5489870165308"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="267.91796875" x="111.82182254016789" y="-5.838247329306284">GinFizz-
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="267.91796875" x="216.84544218462383" y="32.67041429204278">GinFizz-
  Freischalten</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
@@ -47,13 +45,12 @@
       </data>
     </node>
     <node id="n2">
-      <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="81.11535806261648" width="110.61184878688654" x="1558.7223456627087" y="84.27635704848008"/>
+          <y:Geometry height="148.25866555728322" width="202.1709018815964" x="1490.3849467375057" y="652.5006350543346"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="337.896484375" x="118.61184878688664" y="-3.34857096869176">GinFizz-
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="337.896484375" x="210.17090188159636" y="30.223082778641583">GinFizz-
  Datensicherung</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
@@ -63,13 +60,12 @@
       </data>
     </node>
     <node id="n3">
-      <data key="d5"/>
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="79.36852255441416" width="108.229800433729" x="1562.770959337345" y="-33.12077113719518"/>
+          <y:Geometry height="143.22049146640356" width="195.30066467852322" x="1493.8200653390422" y="432.49045718301807"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="344.611328125" x="116.229800433729" y="-4.221988722792929">GinFizz-
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="344.611328125" x="203.30066467852316" y="27.703995733201737">GinFizz-
  Synchronisation</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
@@ -81,10 +77,10 @@
     <node id="n4">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="92.90722533987308" width="77.43276328740149" x="1570.5524612875865" y="-170.489261354581"/>
+          <y:Geometry height="174.3986114848943" width="145.33217882460372" x="1497.4498639441445" y="-78.57383217430342"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="25.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="154.416015625" x="102.43276328740149" y="2.547362669936547">lesbare
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="35.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="284.8984375" x="180.33217882460372" y="43.293055742447166">verschüsselte
 Daten</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
@@ -96,47 +92,7 @@ Daten</y:NodeLabel>
     <node id="n5">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="88.16554104061584" width="73.47128550844313" x="1572.5332001770657" y="-288.65480239519684"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="25.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="284.8984375" x="98.47128550844309" y="0.17652052030791765">verschüsselte
-Daten</y:NodeLabel>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n6">
-      <data key="d5"/>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="1617.985224574988" y="819.6285432198125"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="120" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="sides" modelPosition="s" textColor="#000000" visible="true" width="73.609375" x="-21.8046875" y="34.0">?</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n7">
-      <data key="d5"/>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="30.0" width="30.0" x="1369.2086614173224" y="51.18110236220474"/>
-          <y:Fill hasColor="false" transparent="false"/>
-          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="120" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="143.6875" modelName="sides" modelPosition="s" textColor="#000000" visible="true" width="73.609375" x="-21.8046875" y="34.0">?</y:NodeLabel>
-          <y:Shape type="rectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n8">
-      <data key="d5"/>
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="141.73810728058118" width="193.27923175481374" x="-936.9102726122296" y="737.0905980911588"/>
+          <y:Geometry height="141.73810728058118" width="193.27923175481374" x="-997.5889964776483" y="737.0905980911588"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="94.63961587740687" y="145.73810728058118"/>
@@ -147,11 +103,10 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n9">
-      <data key="d5"/>
+    <node id="n6">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="141.73810728058118" width="193.27923175481374" x="-936.9102726122296" y="521.745409161524"/>
+          <y:Geometry height="141.73810728058118" width="193.27923175481374" x="-997.5889964776483" y="521.745409161524"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="94.63961587740687" y="145.73810728058118"/>
@@ -162,8 +117,7 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n10">
-      <data key="d5"/>
+    <node id="n7">
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="141.73810728058118" width="193.27923175481374" x="606.2510945838262" y="736.9421102467666"/>
@@ -177,8 +131,7 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n11">
-      <data key="d5"/>
+    <node id="n8">
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="141.73810728058118" width="193.27923175481374" x="606.2510945838262" y="521.5969213171318"/>
@@ -192,13 +145,55 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
+    <node id="n9">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-774.3097647228343" y="768.7967076748623"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n10">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-715.6978209728355" y="743.5924504727136"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n11">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-659.2707022228343" y="718.3881932705649"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
     <node id="n12">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="92.90722533987308" width="77.43276328740149" x="1656.040909277353" y="939.4563338961399"/>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="-778.5525886099852" y="546.947061678768"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="36.71638164370074" y="96.90722533987298"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="5"/>
@@ -209,10 +204,10 @@ Daten</y:NodeLabel>
     <node id="n13">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="92.90722533987308" width="77.43276328740149" x="1714.6528530273517" y="914.2520766939912"/>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="-720.5180709436827" y="521.8938970059161"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="36.71638164370074" y="96.9072253398731"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="5"/>
@@ -223,10 +218,10 @@ Daten</y:NodeLabel>
     <node id="n14">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="92.90722533987308" width="77.43276328740149" x="1771.079971777353" y="889.0478194918425"/>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="-660.6849768518846" y="496.8407323330641"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="36.71638164370074" y="96.9072253398731"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="5"/>
@@ -237,13 +232,13 @@ Daten</y:NodeLabel>
     <node id="n15">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="138.02891242438977" width="115.0390625" x="-713.6310408574157" y="768.7967076748623"/>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-869.978748482677" y="-358.78241316858765"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="5"/>
+            <y:SVGContent refid="6"/>
           </y:SVGModel>
         </y:SVGNode>
       </data>
@@ -251,13 +246,13 @@ Daten</y:NodeLabel>
     <node id="n16">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="138.02891242438977" width="115.0390625" x="-655.0190971074169" y="743.5924504727136"/>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-811.3668047326782" y="-383.98667037073636"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="5"/>
+            <y:SVGContent refid="6"/>
           </y:SVGModel>
         </y:SVGNode>
       </data>
@@ -265,13 +260,13 @@ Daten</y:NodeLabel>
     <node id="n17">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="138.02891242438977" width="115.0390625" x="-598.5919783574157" y="718.3881932705649"/>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="-754.939685982677" y="-409.1909275728851"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="5"/>
+            <y:SVGContent refid="6"/>
           </y:SVGModel>
         </y:SVGNode>
       </data>
@@ -279,10 +274,10 @@ Daten</y:NodeLabel>
     <node id="n18">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="88.16554104061584" width="73.47128550844313" x="1647.985224574988" y="761.4630021791968"/>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="344.75869495477593" y="789.2052220791597"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="34.735642754221544" y="92.16554104061584"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="6"/>
@@ -293,10 +288,10 @@ Daten</y:NodeLabel>
     <node id="n19">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="88.16554104061584" width="73.47128550844313" x="1706.0197422412905" y="736.4098375063448"/>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="403.3706387047747" y="764.000964877011"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="34.735642754221544" y="92.16554104061584"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="6"/>
@@ -307,10 +302,10 @@ Daten</y:NodeLabel>
     <node id="n20">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="88.16554104061584" width="73.47128550844313" x="1765.8528363330886" y="711.3566728334929"/>
+          <y:Geometry height="138.02891242438977" width="115.0390625" x="459.79775745477593" y="738.7967076748623"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="34.735642754221544" y="92.16554104061584"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="6"/>
@@ -321,13 +316,13 @@ Daten</y:NodeLabel>
     <node id="n21">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="-717.8738647445665" y="546.947061678768"/>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="340.5158710676251" y="546.947061678768"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
+            <y:SVGContent refid="5"/>
           </y:SVGModel>
         </y:SVGNode>
       </data>
@@ -335,13 +330,13 @@ Daten</y:NodeLabel>
     <node id="n22">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="-659.839347078264" y="521.8938970059161"/>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="398.55038873392755" y="521.8938970059161"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
+            <y:SVGContent refid="5"/>
           </y:SVGModel>
         </y:SVGNode>
       </data>
@@ -349,13 +344,13 @@ Daten</y:NodeLabel>
     <node id="n23">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="-600.0062529864659" y="496.8407323330641"/>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="458.38348282572565" y="496.8407323330641"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
+            <y:SVGContent refid="5"/>
           </y:SVGModel>
         </y:SVGNode>
       </data>
@@ -363,10 +358,10 @@ Daten</y:NodeLabel>
     <node id="n24">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="138.02891242438977" width="115.0390625" x="-869.978748482677" y="-454.2312320662255"/>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="420.1107034032424" y="-291.82406360067404"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="5"/>
@@ -377,10 +372,10 @@ Daten</y:NodeLabel>
     <node id="n25">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="138.02891242438977" width="115.0390625" x="-811.3668047326782" y="-479.4354892683742"/>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="478.14522106954485" y="-316.877228273526"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="5"/>
@@ -391,10 +386,10 @@ Daten</y:NodeLabel>
     <node id="n26">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="138.02891242438977" width="115.0390625" x="-754.939685982677" y="-504.63974647052294"/>
+          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="537.978315161343" y="-341.93039294637794"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="5"/>
@@ -405,136 +400,10 @@ Daten</y:NodeLabel>
     <node id="n27">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="138.02891242438977" width="115.0390625" x="344.75869495477593" y="789.2052220791597"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:Geometry height="893.7129168903584" width="1203.1262859613091" x="-4.65102194026133" y="-706.41721605252"/>
+          <y:Fill hasColor="false" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="5"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n28">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="138.02891242438977" width="115.0390625" x="403.3706387047747" y="764.000964877011"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="5"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n29">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="138.02891242438977" width="115.0390625" x="459.79775745477593" y="738.7967076748623"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="55.51953125" y="142.02891242438977"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="5"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n30">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="340.5158710676251" y="546.947061678768"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n31">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="398.55038873392755" y="521.8938970059161"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n32">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="458.38348282572565" y="496.8407323330641"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n33">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="484.97177736120045" y="-316.87722827352593"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n34">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="543.0062950275029" y="-341.9303929463779"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n35">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="141.44113159179688" width="117.86761175810051" x="602.839389119301" y="-366.9835576192298"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="56.93380587905028" y="145.44113159179688"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="6"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n36">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="620.5092225590763" width="835.336428771599" x="213.35123050030427" y="-606.5176031028695"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="157.1875" x="339.0744643857995" y="624.5092225590763">Cloud</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" borderDistance="60.0" fontFamily="Dialog" fontSize="64" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="78.5" modelName="internal" modelPosition="b" textColor="#000000" visible="true" width="208.25" x="497.43814298065456" y="755.2129168903584">Cloud</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="7"/>
@@ -542,13 +411,13 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n37">
+    <node id="n28">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="686.5795241889681" width="411.94770717992054" x="1536.7815314055517" y="553.1518088675772"/>
+          <y:Geometry height="899.887413267237" width="1038.331573564303" x="-1284.321705390091" y="398.4073703414243"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="335.828125" x="38.0597910899603" y="690.5795241889681">Smartphone</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="317.5" x="360.4157867821515" y="903.8874132672371">Desktop-PC</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="8"/>
@@ -556,21 +425,7 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n38">
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="899.887413267237" width="1038.331573564303" x="-1273.0130602648298" y="398.4073703414243"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="317.5" x="360.4157867821515" y="903.8874132672371">Desktop-PC</y:NodeLabel>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="9"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n39">
+    <node id="n29">
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="967.8863901506993" width="1451.8295289777907" x="-94.89531960279169" y="323.86796881170756"/>
@@ -579,18 +434,32 @@ Daten</y:NodeLabel>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="281.9453125" x="584.9421082388953" y="971.8863901506993">Laptop-PC</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="9"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n30">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="575.6312866210939" width="690.7575316485021" x="-1099.2260393069294" y="-479.31424751369923"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="420.625" x="135.0662658242511" y="579.6312866210939"> ext. Festplatte</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="10"/>
           </y:SVGModel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n40">
+    <node id="n31">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="575.6312866210939" width="690.7575316485021" x="-1099.2260393069294" y="-582.3472365272776"/>
+          <y:Geometry height="667.3299936876451" width="258.08069416452497" x="279.89762099681786" y="-145.4360966817291"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="48" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="403.9140625" x="143.4217345742511" y="579.6312866210939">ext. Festplatte</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="127.04034708226254" y="671.3299936876451"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="11"/>
@@ -598,14 +467,13 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n41">
-      <data key="d5"/>
+    <node id="n32">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="624.2932569786002" width="447.673690795898" x="1049.0466856768362" y="-78.66172929177566"/>
+          <y:Geometry height="488.1974824416988" width="718.3502510532933" x="-468.4526300564754" y="0.9636499925907742"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="221.836845397949" y="628.2932569786001"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="357.17512552664664" y="492.1974824416988"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="12"/>
@@ -613,14 +481,13 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n42">
-      <data key="d5"/>
+    <node id="n33">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="667.3299936876451" width="258.08069416452497" x="309.881743394866" y="-164.7352027098654"/>
+          <y:Geometry height="634.8753811092829" width="198.30438410685008" x="-1120.2356467173283" y="-93.75989320760152"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="127.04034708226249" y="671.3299936876451"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="97.1521920534251" y="638.8753811092829"/>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
             <y:SVGContent refid="13"/>
@@ -628,38 +495,7 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n43">
-      <data key="d5"/>
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="488.1974824416988" width="718.3502510532933" x="-408.46850765842726" y="-89.79011210027448"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="357.17512552664664" y="492.1974824416988"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="14"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n44">
-      <data key="d5"/>
-      <data key="d6">
-        <y:SVGNode>
-          <y:Geometry height="500.35003945625664" width="156.2851692860521" x="-1099.2260393069294" y="-72.52697352823111"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="76.14258464302611" y="504.35003945625664"/>
-          <y:SVGNodeProperties usingVisualBounds="true"/>
-          <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="15"/>
-          </y:SVGModel>
-        </y:SVGNode>
-      </data>
-    </node>
-    <node id="n45">
-      <data key="d5"/>
+    <node id="n34">
       <data key="d6">
         <y:SVGNode>
           <y:Geometry height="157.8252468414759" width="215.2162396288295" x="-1036.0200929526036" y="178.67635012912825"/>
@@ -673,11 +509,10 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n46">
-      <data key="d5"/>
+    <node id="n35">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="164.7197352247166" width="224.61781443197924" x="-202.68054183676577" y="6.288677316664916"/>
+          <y:Geometry height="164.7197352247166" width="224.61781443197924" x="-163.18447884463967" y="203.76899227729484"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="110.30890721598962" y="168.7197352247166"/>
@@ -688,11 +523,10 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n47">
-      <data key="d5"/>
+    <node id="n36">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="164.7197352247166" width="224.61781443197924" x="398.6497931410256" y="108.94924414492505"/>
+          <y:Geometry height="164.7197352247166" width="224.61781443197924" x="206.05517222800722" y="105.86903254973515"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="sandwich" modelPosition="s" textColor="#000000" visible="true" width="4.0" x="110.30890721598962" y="168.7197352247166"/>
@@ -703,40 +537,52 @@ Daten</y:NodeLabel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n48">
-      <data key="d5"/>
+    <node id="n37">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="106.14922756618927" width="106.14922756618927" x="1550.6424555495878" y="-554.2205566753839"/>
+          <y:Geometry height="185.14135355044147" width="185.14135355044147" x="1459.8494955074382" y="-548.9814385640002"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="306.1328125" x="114.14922756618921" y="9.168363783094605">Übertragung
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="306.1328125" x="193.1413535504414" y="48.664426775220704">Übertragung
 lesbarer Daten</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="16"/>
+            <y:SVGContent refid="14"/>
           </y:SVGModel>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n49">
-      <data key="d5"/>
+    <node id="n38">
       <data key="d6">
         <y:SVGNode>
-          <y:Geometry height="99.41652671399777" width="99.07580374169538" x="1559.7309410604396" y="-418.0713291091946"/>
+          <y:Geometry height="158.72853493827935" width="158.18453626923554" x="1475.1982504147468" y="-314.0920535174957"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="8.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="383.318359375" x="107.07580374169538" y="5.802013356998884">Übertr. ver-
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="30.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="383.318359375" x="188.18453626923565" y="35.458017469139676">Übertr. ver-
 schlüsselter Daten</y:NodeLabel>
           <y:SVGNodeProperties usingVisualBounds="true"/>
           <y:SVGModel svgBoundsPolicy="0">
-            <y:SVGContent refid="17"/>
+            <y:SVGContent refid="15"/>
           </y:SVGModel>
         </y:SVGNode>
       </data>
     </node>
-    <edge id="e0" source="n10" target="n10">
-      <data key="d9"/>
+    <node id="n39">
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="183.08630506260138" width="152.5917760348084" x="1500.4027425043969" y="172.6144657155038"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" borderDistance="25.0" fontFamily="Dialog" fontSize="36" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="87.8125" modelName="eight_pos" modelPosition="e" textColor="#000000" visible="true" width="154.416015625" x="177.5917760348084" y="47.63690253130068">lesbare
+Daten</y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="6"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <edge id="e0" source="n7" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -748,12 +594,11 @@ schlüsselter Daten</y:NodeLabel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e1" source="n8" target="n8">
-      <data key="d9"/>
+    <edge id="e1" source="n5" target="n5">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="-802.6101860936942" y="881.566733380503"/>
+            <y:Point x="-863.2889099591129" y="881.566733380503"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
@@ -1054,6 +899,84 @@ schlüsselter Daten</y:NodeLabel>
 </y:Resource>
       <y:Resource id="5">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 -256 1792 1792"
+   id="svg2989"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="File_font_awesome.svg"&gt;
+  &lt;metadata
+     id="metadata2999"&gt;
+    &lt;rdf:RDF&gt;
+      &lt;cc:Work
+         rdf:about=""&gt;
+        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
+        &lt;dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
+        &lt;dc:title&gt;&lt;/dc:title&gt;
+      &lt;/cc:Work&gt;
+    &lt;/rdf:RDF&gt;
+  &lt;/metadata&gt;
+  &lt;defs
+     id="defs2997" /&gt;
+  &lt;sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="721"
+     id="namedview2995"
+     showgrid="false"
+     inkscape:zoom="0.13169643"
+     inkscape:cx="896.00001"
+     inkscape:cy="896.00001"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2989" /&gt;
+  &lt;g
+     transform="matrix(1,0,0,-1,235.38983,1277.8305)"
+     id="g2991"&gt;
+    &lt;path
+       d="M 128,0 H 1152 V 768 H 736 q -40,0 -68,28 -28,28 -28,68 v 416 H 128 V 0 z m 640,896 h 299 L 768,1195 V 896 z M 1280,768 V -32 q 0,-40 -28,-68 -28,-28 -68,-28 H 96 q -40,0 -68,28 -28,28 -28,68 v 1344 q 0,40 28,68 28,28 68,28 h 544 q 40,0 88,-20 48,-20 76,-48 l 408,-408 q 28,-28 48,-76 20,-48 20,-88 z"
+       id="path2993"
+       inkscape:connector-curvature="0"
+       style="fill:currentColor" /&gt;
+  &lt;/g&gt;
+  &lt;path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.59322023;stroke-opacity:0.11711713"
+     d="m 370.54916,894.48135 0,-637.83051 250.16021,0 250.16022,0 2.31436,227.66216 2.31436,227.66217 23.44791,23.43633 c 12.89636,12.88998 36.815,26.53676 53.15255,30.32618 16.33755,3.78941 119.39953,6.97136 229.02663,7.07099 l 199.3221,0.18115 0,379.66098 0,379.6611 -504.94919,0 -504.94915,0 0,-637.83055 z"
+     id="path2990"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-256)" /&gt;
+  &lt;path
+     style="fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:3.68346572;stroke-opacity:0.11711713"
+     d="m 636.02479,1213.2977 c -6.51075,-1.8822 -16.04171,-8.9337 -21.17995,-15.6702 l -9.34214,-12.2483 0,-151.7782 c 0,-163.64785 0.21043,-165.56321 19.58147,-178.25564 4.89922,-3.21005 16.17243,-6.35694 25.05163,-6.99305 l 16.14405,-1.15658 2.01794,-71.82757 c 2.18736,-77.85815 4.60023,-89.54457 26.619,-128.92131 15.108,-27.01828 58.19618,-69.05956 85.55053,-83.47209 34.36951,-18.10867 61.61831,-24.77258 101.29529,-24.77258 61.33346,0 105.96254,18.9102 151.05879,64.00643 50.2302,50.23019 62.1374,83.02164 65.2179,179.60564 l 2.1443,67.22321 15.9045,0 c 13.2942,0 18.0411,2.13628 28.9197,13.01493 l 13.0148,13.01492 0,156.14179 0,156.142 -9.4454,11.2253 c -5.1949,6.1739 -15.5546,12.922 -23.0216,14.9959 -17.3417,4.8166 -472.80262,4.561 -489.53081,-0.2749 l 0,3e-4 z m 301.23203,-58.6622 c 10.4589,-5.5975 9.06963,-17.5406 -8.85184,-76.0935 l -15.97663,-52.1985 9.88552,-7.3087 c 13.66958,-10.1063 22.06764,-29.59767 22.06764,-51.21753 0,-38.8141 -37.70026,-68.37208 -76.1468,-59.70092 -50.90369,11.48059 -66.50387,75.16293 -27.03496,110.36045 l 10.3262,9.2087 -16.12038,51.5686 c -17.78451,56.8922 -19.44393,69.6081 -9.81582,75.216 8.47917,4.9387 102.48802,5.078 111.66707,0.1654 l 0,0 z m 69.74368,-366.23705 c 0,-75.74267 -4.9029,-92.42747 -36.42228,-123.94676 -60.81043,-60.81053 -164.16924,-44.01005 -201.89666,32.81737 -9.93044,20.22219 -10.36045,23.4432 -11.53421,86.38693 l -1.21912,65.38147 125.53613,0 125.53614,0 0,-60.63901 z"
+     id="path3751"
+     inkscape:connector-curvature="0" /&gt;
+  &lt;path
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.59322023;stroke-opacity:0.11711713"
+     d="m 1008.3797,494.01595 0,-142.29591 140.4745,140.32063 c 77.2611,77.17634 140.4746,141.20951 140.4746,142.29591 0,1.0864 -63.2135,1.97527 -140.4746,1.97527 l -140.4745,0 0,-142.2959 z"
+     id="path2992"
+     inkscape:connector-curvature="0"
+     transform="translate(0,-256)" /&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="6">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;svg
    xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -1170,84 +1093,6 @@ schlüsselter Daten</y:NodeLabel>
      transform="translate(0,-256)" /&gt;
 &lt;/svg&gt;
 </y:Resource>
-      <y:Resource id="6">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
-&lt;svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 -256 1792 1792"
-   id="svg2989"
-   version="1.1"
-   inkscape:version="0.48.4 r9939"
-   width="100%"
-   height="100%"
-   sodipodi:docname="File_font_awesome.svg"&gt;
-  &lt;metadata
-     id="metadata2999"&gt;
-    &lt;rdf:RDF&gt;
-      &lt;cc:Work
-         rdf:about=""&gt;
-        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
-        &lt;dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
-        &lt;dc:title&gt;&lt;/dc:title&gt;
-      &lt;/cc:Work&gt;
-    &lt;/rdf:RDF&gt;
-  &lt;/metadata&gt;
-  &lt;defs
-     id="defs2997" /&gt;
-  &lt;sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="721"
-     id="namedview2995"
-     showgrid="false"
-     inkscape:zoom="0.13169643"
-     inkscape:cx="896.00001"
-     inkscape:cy="896.00001"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2989" /&gt;
-  &lt;g
-     transform="matrix(1,0,0,-1,235.38983,1277.8305)"
-     id="g2991"&gt;
-    &lt;path
-       d="M 128,0 H 1152 V 768 H 736 q -40,0 -68,28 -28,28 -28,68 v 416 H 128 V 0 z m 640,896 h 299 L 768,1195 V 896 z M 1280,768 V -32 q 0,-40 -28,-68 -28,-28 -68,-28 H 96 q -40,0 -68,28 -28,28 -28,68 v 1344 q 0,40 28,68 28,28 68,28 h 544 q 40,0 88,-20 48,-20 76,-48 l 408,-408 q 28,-28 48,-76 20,-48 20,-88 z"
-       id="path2993"
-       inkscape:connector-curvature="0"
-       style="fill:currentColor" /&gt;
-  &lt;/g&gt;
-  &lt;path
-     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.59322023;stroke-opacity:0.11711713"
-     d="m 370.54916,894.48135 0,-637.83051 250.16021,0 250.16022,0 2.31436,227.66216 2.31436,227.66217 23.44791,23.43633 c 12.89636,12.88998 36.815,26.53676 53.15255,30.32618 16.33755,3.78941 119.39953,6.97136 229.02663,7.07099 l 199.3221,0.18115 0,379.66098 0,379.6611 -504.94919,0 -504.94915,0 0,-637.83055 z"
-     id="path2990"
-     inkscape:connector-curvature="0"
-     transform="translate(0,-256)" /&gt;
-  &lt;path
-     style="fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:3.68346572;stroke-opacity:0.11711713"
-     d="m 636.02479,1213.2977 c -6.51075,-1.8822 -16.04171,-8.9337 -21.17995,-15.6702 l -9.34214,-12.2483 0,-151.7782 c 0,-163.64785 0.21043,-165.56321 19.58147,-178.25564 4.89922,-3.21005 16.17243,-6.35694 25.05163,-6.99305 l 16.14405,-1.15658 2.01794,-71.82757 c 2.18736,-77.85815 4.60023,-89.54457 26.619,-128.92131 15.108,-27.01828 58.19618,-69.05956 85.55053,-83.47209 34.36951,-18.10867 61.61831,-24.77258 101.29529,-24.77258 61.33346,0 105.96254,18.9102 151.05879,64.00643 50.2302,50.23019 62.1374,83.02164 65.2179,179.60564 l 2.1443,67.22321 15.9045,0 c 13.2942,0 18.0411,2.13628 28.9197,13.01493 l 13.0148,13.01492 0,156.14179 0,156.142 -9.4454,11.2253 c -5.1949,6.1739 -15.5546,12.922 -23.0216,14.9959 -17.3417,4.8166 -472.80262,4.561 -489.53081,-0.2749 l 0,3e-4 z m 301.23203,-58.6622 c 10.4589,-5.5975 9.06963,-17.5406 -8.85184,-76.0935 l -15.97663,-52.1985 9.88552,-7.3087 c 13.66958,-10.1063 22.06764,-29.59767 22.06764,-51.21753 0,-38.8141 -37.70026,-68.37208 -76.1468,-59.70092 -50.90369,11.48059 -66.50387,75.16293 -27.03496,110.36045 l 10.3262,9.2087 -16.12038,51.5686 c -17.78451,56.8922 -19.44393,69.6081 -9.81582,75.216 8.47917,4.9387 102.48802,5.078 111.66707,0.1654 l 0,0 z m 69.74368,-366.23705 c 0,-75.74267 -4.9029,-92.42747 -36.42228,-123.94676 -60.81043,-60.81053 -164.16924,-44.01005 -201.89666,32.81737 -9.93044,20.22219 -10.36045,23.4432 -11.53421,86.38693 l -1.21912,65.38147 125.53613,0 125.53614,0 0,-60.63901 z"
-     id="path3751"
-     inkscape:connector-curvature="0" /&gt;
-  &lt;path
-     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.59322023;stroke-opacity:0.11711713"
-     d="m 1008.3797,494.01595 0,-142.29591 140.4745,140.32063 c 77.2611,77.17634 140.4746,141.20951 140.4746,142.29591 0,1.0864 -63.2135,1.97527 -140.4746,1.97527 l -140.4745,0 0,-142.2959 z"
-     id="path2992"
-     inkscape:connector-curvature="0"
-     transform="translate(0,-256)" /&gt;
-&lt;/svg&gt;
-</y:Resource>
       <y:Resource id="7">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -1318,66 +1163,6 @@ schlüsselter Daten</y:NodeLabel>
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 -256 1792 1792"
-   id="svg3001"
-   version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   width="100%"
-   height="100%"
-   sodipodi:docname="mobile_phone_font_awesome.svg"&gt;
-  &lt;metadata
-     id="metadata3011"&gt;
-    &lt;rdf:RDF&gt;
-      &lt;cc:Work
-         rdf:about=""&gt;
-        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
-        &lt;dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
-      &lt;/cc:Work&gt;
-    &lt;/rdf:RDF&gt;
-  &lt;/metadata&gt;
-  &lt;defs
-     id="defs3009" /&gt;
-  &lt;sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview3007"
-     showgrid="false"
-     inkscape:zoom="0.13169643"
-     inkscape:cx="896"
-     inkscape:cy="896"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg3001" /&gt;
-  &lt;g
-     transform="matrix(1,0,0,-1,485.9661,1277.8305)"
-     id="g3003"&gt;
-    &lt;path
-       d="m 464,128 q 0,33 -23.5,56.5 Q 417,208 384,208 351,208 327.5,184.5 304,161 304,128 304,95 327.5,71.5 351,48 384,48 417,48 440.5,71.5 464,95 464,128 z m 208,160 v 704 q 0,13 -9.5,22.5 -9.5,9.5 -22.5,9.5 H 128 q -13,0 -22.5,-9.5 Q 96,1005 96,992 V 288 q 0,-13 9.5,-22.5 Q 115,256 128,256 h 512 q 13,0 22.5,9.5 9.5,9.5 9.5,22.5 z m -192,848 q 0,16 -16,16 H 304 q -16,0 -16,-16 0,-16 16,-16 h 160 q 16,0 16,16 z m 288,16 V 128 Q 768,76 730,38 692,0 640,0 H 128 Q 76,0 38,38 0,76 0,128 v 1024 q 0,52 38,90 38,38 90,38 h 512 q 52,0 90,-38 38,-38 38,-90 z"
-       id="path3005"
-       inkscape:connector-curvature="0"
-       style="fill:currentColor" /&gt;
-  &lt;/g&gt;
-&lt;/svg&gt;
-</y:Resource>
-      <y:Resource id="9">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
-&lt;svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 -256 2000 2000"
    id="svg3013"
    version="1.1"
@@ -1429,7 +1214,7 @@ schlüsselter Daten</y:NodeLabel>
   &lt;/g&gt;
 &lt;/svg&gt;
 </y:Resource>
-      <y:Resource id="10">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+      <y:Resource id="9">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -1489,7 +1274,7 @@ schlüsselter Daten</y:NodeLabel>
   &lt;/g&gt;
 &lt;/svg&gt;
 </y:Resource>
-      <y:Resource id="11">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+      <y:Resource id="10">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -1549,73 +1334,7 @@ schlüsselter Daten</y:NodeLabel>
   &lt;/g&gt;
 &lt;/svg&gt;
 </y:Resource>
-      <y:Resource id="12">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
-&lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
-
-&lt;svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="236.16336"
-   height="330.96753"
-   id="svg2983"
-   version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="arr_dbl_gr_000.svg"&gt;
-  &lt;defs
-     id="defs2985" /&gt;
-  &lt;sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.6315132"
-     inkscape:cx="-172.44632"
-     inkscape:cy="162.49187"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="721"
-     inkscape:window-x="-2"
-     inkscape:window-y="-3"
-     inkscape:window-maximized="1" /&gt;
-  &lt;metadata
-     id="metadata2988"&gt;
-    &lt;rdf:RDF&gt;
-      &lt;cc:Work
-         rdf:about=""&gt;
-        &lt;dc:format&gt;image/svg+xml&lt;/dc:format&gt;
-        &lt;dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /&gt;
-        &lt;dc:title&gt;&lt;/dc:title&gt;
-      &lt;/cc:Work&gt;
-    &lt;/rdf:RDF&gt;
-  &lt;/metadata&gt;
-  &lt;g
-     inkscape:label="Ebene 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-195.43111,-114.01944)"&gt;
-    &lt;path
-       style="fill:#80e800;fill-opacity:1;stroke:#000000;stroke-width:9.88821507;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 424.2158,390.38629 c 2.00664,26.69201 2.96936,49.00642 2.13943,49.58755 -1.61031,1.12754 -86.58234,-38.94205 -88.55484,-41.75907 -0.6434,-0.91885 2.80884,-4.83265 7.67158,-8.6973 l 8.84141,-7.02673 -61.57422,-88.55667 -61.57424,-88.5567 -9.52525,6.66966 c -5.96816,4.17894 -10.06101,5.90455 -10.95974,4.62101 -1.51757,-2.1673 -11.02916,-92.58904 -10.22619,-97.2147 0.34151,-1.96652 11.2658,2.1409 39.89574,15.00037 44.11679,19.81558 48.09067,21.7455 49.79919,24.18554 0.66131,0.94444 -3.07891,4.71512 -8.31153,8.37904 l -9.51397,6.66175 63.50486,90.69436 63.50489,90.69439 10.61714,-6.60671 10.61717,-6.60672 3.64857,48.53093 z"
-       id="path3756"
-       inkscape:connector-curvature="0" /&gt;
-  &lt;/g&gt;
-&lt;/svg&gt;
-</y:Resource>
-      <y:Resource id="13">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+      <y:Resource id="11">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
 
 &lt;svg
@@ -1681,7 +1400,7 @@ schlüsselter Daten</y:NodeLabel>
   &lt;/g&gt;
 &lt;/svg&gt;
 </y:Resource>
-      <y:Resource id="14">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+      <y:Resource id="12">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
 
 &lt;svg
@@ -1747,7 +1466,7 @@ schlüsselter Daten</y:NodeLabel>
   &lt;/g&gt;
 &lt;/svg&gt;
 </y:Resource>
-      <y:Resource id="15">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+      <y:Resource id="13">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -1853,7 +1572,7 @@ schlüsselter Daten</y:NodeLabel>
   &lt;/metadata&gt;
 &lt;/svg&gt;
 </y:Resource>
-      <y:Resource id="16">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+      <y:Resource id="14">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -1962,7 +1681,7 @@ schlüsselter Daten</y:NodeLabel>
   &lt;/metadata&gt;
 &lt;/svg&gt;
 </y:Resource>
-      <y:Resource id="17">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+      <y:Resource id="15">&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
 &lt;!-- Created with Inkscape (http://www.inkscape.org/) --&gt;
 
 &lt;svg

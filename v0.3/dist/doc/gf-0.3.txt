@@ -1,0 +1,49 @@
+github.org 
+GinFizz (--> BostonShaker) Version 0.3
+
+Sichere Dateiablage in der Cloud unter Linux - leichtgemacht!
+
+GinFizz ist eine kleine und bescheidene Software, die das Speichern von Dateien 
+in der Cloud mit sicherer AES-256-Ende-zu-Ende-Verschlüsselung unter Linux 
+ermöglicht. Das macht GinFizz nicht selbst. Vielmehr orchestriert und 
+konfiguriert GinFizz bekannte Open-Source-Standardsoftware: EncFS dient zur 
+Verschlüsselung, DavFS2 erledigt den Cloud-Zugriff, Unison synchronisiert lokale 
+Daten mit der Cloud, und RSync kümmert die Daten­sicherung. 
+
+GinFizz' Anliegen sind Sicherheit, Privatsphäre und „Informationelle 
+Selbstbestim­mung“. Es werden ausschließlich bereits zuvor verschlüsselte Daten 
+in die Cloud übertragen. Auch auf dem Arbeitsrechner liegen die Dateien 
+grundsätzlich verschlüsselt vor, eine gezielte Entschlüsselung nur zur 
+Bearbeitung ist möglich. Auf die Daten in der Cloud können beliebig viele 
+Rechner zugreifen. Die Synchroni­sation kann zeitgesteuert erfolgen, und auch 
+jederzeit gezielt durch den Benutzer ausgelöst werden. Vollautomatische 
+Synchronisation bei Datenänderung wird z.Z. nicht unterstützt. GinFizz 
+ermöglicht außerdem unverschlüsselte Datensicherung.
+
+GinFizz erschließt auch unkundigen Anwendern die sichere Cloud-Nutzung. Das 
+Installationsskript nimmt nur wenige Angaben zur Cloud-Verbindung entgegen, 
+richtet die genannten Programme vollautomatisch ein, und integriert alle 
+Bedien­optionen in die Desktop-Oberfläche. Die eigentliche Arbeit wird von 
+EncFS, DavFS2, Unison und Rsync erledigt - ein herzliches Dankeschön an die 
+Macher dieser Programme! -, aber erst GinFizz macht die Funktionen komfortabel 
+und ganz ohne Kommandozeile zugänglich.
+
+GinFizz liegt in deutscher und englischer Sprache vor und steht für openSuSE 
+Linux 12.2, 12.3, 13.1 unter KDE zur Verfügung. Weitere Linux-Distributionen wie 
+Red Hat, Ubuntu, Debian etc. und andere grafische Desktops wie Gnome und XFCE 
+sind geplant - Beiträge anderer sind willkommen. Die Cloud-Daten müssen über 
+das WebDav-Protokoll erreichbar sein. Der Zugriff von Android-Smartphones ist 
+prinzi­piell möglich, z.Z. aber nicht Bestandteil des Projekts. GinFizz ist auf 
+GitHub zuhause und kann via github.com/BostonShaker/GinFizz heruntergeladen 
+werden.
+
+GinFizz nutzt ausschließlich Freie Software, und ist auch selbst Open Source. 
+Nur Open-Source-Software kann jederzeit und permanent von Fachleuten auf 
+zuverläs­sige Sicherheit und Freiheit von Hintertüren überprüft werden. Zudem 
+ist Freie Software kostenfrei wie Freibier, so dass sie wirklich jedermann zur 
+Verfügung steht. Nur freie, offene Verschlüsselungslösungen hoher Qualität 
+kön­nen dazu beitragen, Demokratie und Bürgerrechte vor weiterer Aushöhlung 
+durch Geheim­dienste und staatliche Stellen zu schützen. Leider setzt das, im 
+Vergleich zu den traditionellen geschlossenen Systemen, oft höhere Kompetenz der 
+Nutzer voraus. GinFizz bemüht sich daher mit Einfachheit und Komfort gezielt um 
+eine gute Akzeptanz der Nutzer.
