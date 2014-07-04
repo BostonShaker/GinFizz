@@ -11,8 +11,6 @@ SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
 
-LOG_FULL=${TMPDIR}/${PRGRM}-backup.log
-LOG_TEMP=${LOG_FULL}.tmp
 FILE_COUNT=0
 DIR_TARGET=""
 TMP_MOUNT=0
@@ -88,7 +86,7 @@ CheckRunning()
 {
    # check if script already running
 
-   if [ $(ps ax|grep '/bin/bash $0'|grep -v 'grep') -lt 1 ]; then
+   if [ $(ps ax|grep '/bin/bash $0'|grep -v 'grep'|wc -l) -lt 1 ]; then
       return 0
    else
       return 1
@@ -199,6 +197,9 @@ DIR_BASE=$(eval echo \$${PRGRM}_BASE)
 DIR_CHIPHER=$(eval echo \$${PRGRM}_CHIPHER)
 DIR_CLOUD=$(eval echo \$${PRGRM}_CLOUD)
 DIR_DATA=$(eval echo \$${PRGRM}_DATA)
+
+LOG_FULL=${DIR_APPDIR}/${PRGRM}-backup.log
+LOG_TEMP=${LOG_FULL}.tmp
 
 MSG_TITLE="$(LocTx "M_Title")"
 ERR_TITLE="$(LocTx "E_Title")"

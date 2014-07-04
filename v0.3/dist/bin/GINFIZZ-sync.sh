@@ -11,10 +11,7 @@ SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
 
-LOG_FULL=${TMPDIR}/${PRGRM}-sync.log
-LOG_TEMP=${LOG_FULL}.tmp
 TMP_MOUNT=0
-LOG_STATUS=""
 CLOC=""
 
 # *** i18n ***
@@ -30,6 +27,9 @@ LocTx()
    case "${CLOC}" in
       de)
          case "$1" in
+            M_Success) echo "Die Synchronisation war erfolgreich." ;;
+            E_Errors)  echo "Bei der Synchronisation mindestens einer Datei traten Fehler auf." ;;
+
             E_Close)   echo "Das Schließen des Cloud-Zugriffs via '${DIR_CLOUD}' ist gescheitert." ;;
             E_Copy)    echo "Der Kopiervorgang von '${DIR_CLOUD}' nach '${DIR_CHIPHER}' ist gescheitert." ;;
             E_Fail)    echo "Die Synchronisation ist gescheitert (Fehlerkode '${UNI_CD}')." ;;
@@ -51,6 +51,9 @@ LocTx()
 
       *)
          case "$1" in
+            M_Success) echo "Synchronization completed successfully." ;;
+            E_Errors)  echo "Synchronization of one or more files failed." ;;
+
             E_Close)   echo "Failed to close cloud access through directory '${DIR_CLOUD}'." ;;
             E_Copy)    echo "Failed to copy data from '${DIR_CLOUD}' to '${DIR_CHIPHER}'." ;;
             E_Fail)    echo "Synchronization failure, error code is '${UNI_CD}'." ;;
@@ -89,7 +92,7 @@ CheckRunning()
 {
    # check if script already running
 
-   if [ $(ps ax|grep '/bin/bash $0'|grep -v 'grep') -lt 1 ]; then
+   if [ $(ps ax|grep '/bin/bash $0'|grep -v 'grep'|wc -l) -lt 1 ]; then
       return 0
    else
       return 1
@@ -166,6 +169,9 @@ DIR_BASE=$(eval echo \$${PRGRM}_BASE)
 DIR_CHIPHER=$(eval echo \$${PRGRM}_CHIPHER)
 DIR_CLOUD=$(eval echo \$${PRGRM}_CLOUD)
 DIR_DATA=$(eval echo \$${PRGRM}_DATA)
+
+LOG_FULL=${DIR_APPDIR}/${PRGRM}-sync.log
+LOG_TEMP=${LOG_FULL}.tmp
 
 MSG_TITLE="$(LocTx "M_Title")"
 ERR_TITLE="$(LocTx "E_Title")"
@@ -262,26 +268,27 @@ while true; do
    MsgOut "${OUT_MSG}" 1
 
    # do the syncronization
-   unison "${DIR_CHIPHER}" "${DIR_CLOUD}" -batch -ui text -ignore "Name lost+found" -times -perms 0 -prefer "${DIR_CHIPHER}" -log -logfile "${LOG_TEMP}"
+   unison "${DIR_CHIPHER}" "${DIR_CLOUD}" -batch -ui text -fastcheck true -dontchmod -times -links false -perms 0 -prefer "${DIR_CHIPHER}" -ignore "Name lost+found" -log -logfile "${LOG_TEMP}"
    UNI_CD=$?
 
    # check for syncronization success
    if [ ${UNI_CD} -gt 2 ]; then
       # UNISON reports serious error
+      echo "$(LocTx "E_Fail")" >> "${LOG_TEMP}"
       EXIT_CD=7
    else
       # check if any files transmitted
       if [ $(wc -l "${LOG_TEMP}" | grep -oE '^[0-9]+') -lt 3 ]; then
          # if not: memorize that fact
+         echo "$(LocTx "M_NoData")" >> "${LOG_TEMP}"
          EXIT_CD=8
       else
-         # read synchronization log
-         LOG_STATUS="$(grep -ie '^synchronization ' "${LOG_TEMP}")"
-
          # check for logged synchronization errors
          if [ $(grep -icP '((^| )(?<!0 )failed| error )' "${LOG_TEMP}") -ne 0 ]; then
-            # wenn ja: merken!
+            echo "$(LocTx "E_Errors")" >> "${LOG_TEMP}"
             EXIT_CD=9
+         else
+            echo "$(LocTx "M_Success")" >> "${LOG_TEMP}"
          fi
       fi
    fi
@@ -313,7 +320,7 @@ if [ ${TMP_MOUNT} -ne 0 ]; then
 fi
 
 case "${EXIT_CD}" in
-   0) OUT_MSG="${LOG_STATUS}"
+   0) OUT_MSG="$(LocTx "M_Success")"
       OUT_TIME=3;  OUT_TITLE="${MSG_TITLE}"; OUT_ICON="${PRGRM_ICON}";;
 
    1) OUT_MSG="$(LocTx "W_Running")"
@@ -340,7 +347,7 @@ case "${EXIT_CD}" in
    8) OUT_MSG="$(LocTx "M_NoData")"
       OUT_TIME=3;  OUT_TITLE="${MSG_TITLE}"; OUT_ICON="${PRGRM_ICON}"; EXIT_CD=0;;
 
-   9) OUT_MSG="${LOG_STATUS}"
+   9) OUT_MSG="$(LocTx "E_Errors")"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
 
    *) OUT_MSG="$(LocTx "E_Unknown")"
