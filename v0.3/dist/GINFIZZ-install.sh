@@ -7,7 +7,7 @@
 PRGRM="GINFIZZ"
 PRGRM_LWR="$(echo "${PRGRM}"|tr 'A-Z' 'a-z')"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.3"
+SCRIPT_VER="${PRGRM_VER}.4"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR="$(readlink -f "$0")"
 SCRIPT_DIR="$(dirname "${SCRIPT_DIR}")"
@@ -825,20 +825,8 @@ ConfigureSynchronization()
    CleanUp
 
    # create private davfs2 secrets file, modify rights
-   CreateEmptyFile "${TMP_FILE1}" -q
+   echo "${WEBDAVURL} ${WEBDAVUSR} ${WEBDAVPWD}" > "${DAV_SECRETS}"
    if [ $? -ne 0 ]; then return 1;  fi
-
-   if [ -f "${DAV_SECRETS}" ]; then
-      cat "${DAV_SECRETS}" | grep -vi "${WEBDAVURL}" >> "${TMP_FILE1}"
-   fi
-
-   echo "${WEBDAVURL} ${WEBDAVUSR} ${WEBDAVPWD}" >> "${TMP_FILE1}"
-   if [ $? -ne 0 ]; then return 1;  fi
-
-   cat "${TMP_FILE1}" > "${DAV_SECRETS}"
-   if [ $? -ne 0 ]; then return 1;  fi
-
-   rm "${TMP_FILE1}" > /dev/null 2>&1
 
    chmod g-rw,o-rw,a-x,u+rw "${DAV_SECRETS}" > /dev/null 2>&1
    if [ $? -ne 0 ]; then return 1;  fi

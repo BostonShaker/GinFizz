@@ -6,7 +6,7 @@
 
 PRGRM="GINFIZZ"
 PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.3"
+SCRIPT_VER="${PRGRM_VER}.4"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
@@ -27,11 +27,9 @@ LocTx()
    case "${CLOC}" in
       de)
          case "$1" in
-            M_Success) echo "Die Synchronisation war erfolgreich." ;;
-            E_Errors)  echo "Bei der Synchronisation mindestens einer Datei traten Fehler auf." ;;
-
             E_Close)   echo "Das Schließen des Cloud-Zugriffs via '${DIR_CLOUD}' ist gescheitert." ;;
             E_Copy)    echo "Der Kopiervorgang von '${DIR_CLOUD}' nach '${DIR_CHIPHER}' ist gescheitert." ;;
+            E_Errors)  echo "Bei der Synchronisation mindestens einer Datei traten Fehler auf." ;;
             E_Fail)    echo "Die Synchronisation ist gescheitert (Fehlerkode '${UNI_CD}')." ;;
             E_Install) echo "${PRGRM} ist nicht oder nur unvollständig installiert." ;;
             E_Net)     echo "Es besteht keine Verbindung zum Internet." ;;
@@ -41,6 +39,7 @@ LocTx()
             M_Copy)    echo "Das lokale Datenverzeichnis ist leer. Die Daten werden nun einmalig aus der Cloud auf diesen Rechner kopiert. Dieser Vorgang kann einige Minuten dauern." ;;
             M_CopyOk)  echo "Alle Daten aus der Cloud wurden erfolgreich kopiert." ;;
             M_NoData)  echo "Keine neuen oder veränderten Dateien gefunden." ;;
+            M_Success) echo "Die Synchronisation war erfolgreich." ;;
             M_Sync)    echo "Synchronisation gestartet..." ;;
             M_Title)   echo "${PRGRM}: Synchronisation" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Rückgabewert ist '${EXIT_CD}'." ;;
@@ -51,11 +50,9 @@ LocTx()
 
       *)
          case "$1" in
-            M_Success) echo "Synchronization completed successfully." ;;
-            E_Errors)  echo "Synchronization of one or more files failed." ;;
-
             E_Close)   echo "Failed to close cloud access through directory '${DIR_CLOUD}'." ;;
             E_Copy)    echo "Failed to copy data from '${DIR_CLOUD}' to '${DIR_CHIPHER}'." ;;
+            E_Errors)  echo "Synchronization of one or more files failed." ;;
             E_Fail)    echo "Synchronization failure, error code is '${UNI_CD}'." ;;
             E_Install) echo "${PRGRM} is not installed correctly." ;;
             E_Net)     echo "No internet access." ;;
@@ -65,6 +62,7 @@ LocTx()
             M_Copy)    echo "The local data directory is empty. The cloud data will now be copied once to this computer. This may take some time." ;;
             M_CopyOk)  echo "All cloud data successfully copied to this computer." ;;
             M_NoData)  echo "No new or modified files found." ;;
+            M_Success) echo "Synchronization completed successfully." ;;
             M_Sync)    echo "Synchronization started..." ;;
             M_Title)   echo "${PRGRM}: Synchronization" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) exit code is '${EXIT_CD}'." ;;
@@ -222,7 +220,7 @@ while true; do
 
    # mount WebDAV directory
    if [ $(mount "${DIR_CLOUD}" 2>/dev/null; echo $?) -ne 0 ]; then
-      EXIT_CD=6
+      EXIT_CD=5
       break
    else
       # check if WebDAV directory is mounted
@@ -338,7 +336,7 @@ case "${EXIT_CD}" in
    5) OUT_MSG="$(LocTx "E_Open")"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
 
-   6) OUT_MSG="$(LocTx "M_Copy")"
+   6) OUT_MSG="$(LocTx "E_Copy")"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
 
    7) OUT_MSG="$(LocTx "E_Fail")"
