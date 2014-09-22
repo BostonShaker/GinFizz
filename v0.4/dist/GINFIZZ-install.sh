@@ -721,11 +721,14 @@ ConfigureDesktopKDE()
    # copy all desktop files to temp folder and replace home path
    TMP_REGEX=".*\/${PRGRM}-[a-z]+\.(desktop|directory)$"
 
+   SAVEIFS=${IFS}
+   IFS=$(echo -en "\n\b")
+
    for TMP_LOOP in $(find "${SCRIPT_DIR}/env/desk" -regextype posix-extended -regex "${TMP_REGEX}" 2>/dev/null)
    do
       TMP_TARGET="${TMP_FOLDER}/$(basename "${TMP_LOOP}")"
       cat "${TMP_LOOP}" | sed "s/@H@/$(echo ${HOME}|sed -e 's/[]\/()$*.^|[]/\\&/g')/g" > "${TMP_TARGET}"
-      if [ $? -ne 0 ]; then return 1;  fi
+      if [ $? -ne 0 ]; then IFS=${SAVEIFS}; return 1;  fi
    done
 
    # install all desktop files to program menu
@@ -737,7 +740,7 @@ ConfigureDesktopKDE()
    for TMP_LOOP in $(find "${TMP_FOLDER}" -regextype posix-extended -regex "${TMP_REGEX}" 2>/dev/null)
    do
       xdg-desktop-menu install --mode user "${MENU_FOLDER}" "${TMP_LOOP}" > /dev/null 2>&1
-      if [ $? -ne 0 ]; then return 1;  fi
+      if [ $? -ne 0 ]; then IFS=${SAVEIFS}; return 1;  fi
 
       TextOut "$(LocTx "M_DoKdeMnu" "${TMP_FOLDER}/$(basename "${TMP_LOOP}")")"
    done
@@ -749,6 +752,8 @@ ConfigureDesktopKDE()
    do
       rm -f "${TMP_LOOP}" > /dev/null 2>&1
    done
+
+   IFS=${SAVEIFS}
 
    # register unlock / lock scripts in Autotart / shutdown folders
    KDE_AUTOSTART="${HOME}/.kde4/Autostart"
@@ -877,29 +882,35 @@ CopyFiles()
    TextOut "$(LocTx "M_DoCpy")"
 
    # copy all shell scripts ~/bin, change mode to executable
-   TMP_REGEX=".*\/${PRGRM}-[a-z]+\.sh$"
+   TMP_REGEX=".*\/${PRGRM}-[a-z]+\.sh"
+
+   SAVEIFS=${IFS}
+   IFS=$(echo -en "\n\b")
 
    for TMP_LOOP in $(find "${SCRIPT_DIR}/bin" -regextype posix-extended -regex "${TMP_REGEX}" 2>/dev/null)
    do
       TMP_TARGET="${HOME}/bin/$(basename "${TMP_LOOP}")"
 
       CopyFile "${TMP_LOOP}" "${TMP_TARGET}" -f
-      if [ $? -ne 0 ]; then return 1;  fi
+      if [ $? -ne 0 ]; then IFS=${SAVEIFS}; return 1;  fi
 
       chmod u+x "${TMP_TARGET}"
-      if [ $? -ne 0 ]; then return 1;  fi
+      if [ $? -ne 0 ]; then IFS=${SAVEIFS}; return 1;  fi
    done
 
+
    # copy all icon files to DIR_APPDIR/icons
-   TMP_REGEX=".*\/${PRGRM}-[a-z]+\.svg$"
+   TMP_REGEX=".*\/${PRGRM}-[a-z]+\.svg"
 
    for TMP_LOOP in $(find "${SCRIPT_DIR}/env/icons" -regextype posix-extended -regex "${TMP_REGEX}" 2>/dev/null)
    do
       TMP_TARGET="${DIR_ICONDIR}/$(basename "${TMP_LOOP}")"
 
       CopyFile "${TMP_LOOP}" "${TMP_TARGET}" -f
-      if [ $? -ne 0 ]; then return 1;  fi
+      if [ $? -ne 0 ]; then IFS=${SAVEIFS}; return 1;  fi
    done
+
+   IFS=${SAVEIFS}
 
    # copy copyright file to ~/bin
    TMP_SOURCE="${SCRIPT_DIR}/copyright.txt"
