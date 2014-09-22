@@ -5,8 +5,8 @@
 # See file 'copyright.txt' for details.
 
 PRGRM="GINFIZZ"
-PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.5"
+PRGRM_VER="0.4"
+SCRIPT_VER="${PRGRM_VER}.0"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
@@ -215,13 +215,6 @@ fi
 XOUT=$(LocTx "T_Start"); echo -e "${XOUT}"
 
 while true; do
-   # check if script already running
-   CheckRunning
-   if [ $? -ne 0 ]; then
-      EXIT_CD=1
-      break
-   fi
-
    # check installation
    CheckInstall
    if [ $? -ne 0 ]; then
@@ -331,23 +324,23 @@ case "${EXIT_CD}" in
    1) OUT_MSG="$(LocTx "W_Running")"
       OUT_TIME=5; OUT_TITLE="${MSG_TITLE}"; OUT_ICON="dialog-warning";;
 
-   2) OUT_MSG="$(LocTx "E_Install")"
+   1) OUT_MSG="$(LocTx "E_Install")"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
 
-   3) OUT_MSG="$(LocTx "E_Mount")"
+   2) OUT_MSG="$(LocTx "E_Mount")"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
 
-   4) OUT_MSG="$(LocTx "E_User")"
+   3) OUT_MSG="$(LocTx "E_User")"
       OUT_TIME=5;  OUT_TITLE="${MSG_TITLE}"; OUT_ICON="dialog-warning";;
 
-   5) OUT_MSG="$(LocTx "E_Write")"
+   4) OUT_MSG="$(LocTx "E_Write")"
       OUT_MSG="${OUT_MSG/@0/${DIR_TARGET}}"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
 
-   6) OUT_MSG="$(LocTx "E_RSync")"
+   5) OUT_MSG="$(LocTx "E_RSync")"
       OUT_TIME=10; OUT_TITLE="${ERR_TITLE}"; OUT_ICON="dialog-error";;
 
-   7) OUT_MSG="$(LocTx "M_NoData")"
+   6) OUT_MSG="$(LocTx "M_NoData")"
       OUT_TIME=3;  OUT_TITLE="${MSG_TITLE}"; OUT_ICON="${PRGRM_ICON}";;
 
    *) OUT_MSG="$(LocTx "E_Unknown")"

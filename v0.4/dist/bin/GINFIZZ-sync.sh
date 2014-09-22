@@ -5,13 +5,15 @@
 # See file 'copyright.txt' for details.
 
 PRGRM="GINFIZZ"
-PRGRM_VER="0.3"
+PRGRM_VER="0.4"
 SCRIPT_VER="${PRGRM_VER}.5"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
 
+FILE_CNT=0
 TMP_MOUNT=0
+SYNC_RC=0
 CLOC=""
 
 # *** i18n ***
@@ -30,7 +32,7 @@ LocTx()
             E_Close)   echo "Das Schließen des Cloud-Zugriffs via '${DIR_CLOUD}' ist gescheitert." ;;
             E_Copy)    echo "Der Kopiervorgang von '${DIR_CLOUD}' nach '${DIR_CHIPHER}' ist gescheitert." ;;
             E_Errors)  echo "Bei der Synchronisation mindestens einer Datei traten Fehler auf." ;;
-            E_Fail)    echo "Die Synchronisation ist gescheitert (Fehlerkode '${UNI_CD}')." ;;
+            E_Fail)    echo "Die Synchronisation ist gescheitert (Fehlerkode '${SYNC_RC}')." ;;
             E_Install) echo "${PRGRM} ist nicht oder nur unvollständig installiert." ;;
             E_Net)     echo "Es besteht keine Verbindung zum Internet." ;;
             E_Open)    echo "Das Öffnen des Cloud-Zugriffs via '${DIR_CLOUD}' ist gescheitert." ;;
@@ -39,7 +41,7 @@ LocTx()
             M_Copy)    echo "Das lokale Datenverzeichnis ist leer. Die Daten werden nun einmalig aus der Cloud auf diesen Rechner kopiert. Dieser Vorgang kann einige Minuten dauern." ;;
             M_CopyOk)  echo "Alle Daten aus der Cloud wurden erfolgreich kopiert." ;;
             M_NoData)  echo "Keine neuen oder veränderten Dateien gefunden." ;;
-            M_Success) echo "Die Synchronisation war erfolgreich." ;;
+            M_Success) echo "Die Synchronisation von ${FILE_CNT} Datei(en) war erfolgreich." ;;
             M_Sync)    echo "Synchronisation gestartet..." ;;
             M_Title)   echo "${PRGRM}: Synchronisation" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) Rückgabewert ist '${EXIT_CD}'." ;;
@@ -53,7 +55,7 @@ LocTx()
             E_Close)   echo "Failed to close cloud access through directory '${DIR_CLOUD}'." ;;
             E_Copy)    echo "Failed to copy data from '${DIR_CLOUD}' to '${DIR_CHIPHER}'." ;;
             E_Errors)  echo "Synchronization of one or more files failed." ;;
-            E_Fail)    echo "Synchronization failure, error code is '${UNI_CD}'." ;;
+            E_Fail)    echo "Synchronization failure, error code is '${SYNC_RC}'." ;;
             E_Install) echo "${PRGRM} is not installed correctly." ;;
             E_Net)     echo "No internet access." ;;
             E_Open)    echo "Failed to open cloud access through directory '${DIR_CLOUD}'." ;;
@@ -62,7 +64,7 @@ LocTx()
             M_Copy)    echo "The local data directory is empty. The cloud data will now be copied once to this computer. This may take some time." ;;
             M_CopyOk)  echo "All cloud data successfully copied to this computer." ;;
             M_NoData)  echo "No new or modified files found." ;;
-            M_Success) echo "Synchronization completed successfully." ;;
+            M_Success) echo "Synchronization of ${FILE_CNT} file(s) completed successfully." ;;
             M_Sync)    echo "Synchronization started..." ;;
             M_Title)   echo "${PRGRM}: Synchronization" ;;
             T_End)     echo "${MSG_TITLE} (${SCRIPT_NAME} v${SCRIPT_VER}) exit code is '${EXIT_CD}'." ;;
@@ -232,9 +234,9 @@ while true; do
    fi
 
    # in case of no data in chiphered data folder...
-   if [ $(ls -1a "${DIR_CHIPHER}" | wc -l) -lt 3 ]; then
+   if [ $(ls -1a "${DIR_CHIPHER}" | wc -l) -lt 1 ]; then
       # ... but data in WebDav folder...
-      if [ $(ls -1a "${DIR_CLOUD}" | wc -l) -gt 2 ]; then
+      if [ $(ls -1a "${DIR_CLOUD}" | wc -l) -gt 0 ]; then
          # copy all data from WebDAV directory to data directory
          # inform the user about the copy process
          OUT_MSG="$(LocTx "M_Copy")"
@@ -266,28 +268,24 @@ while true; do
    MsgOut "${OUT_MSG}" 1
 
    # do the syncronization
-   unison "${DIR_CHIPHER}" "${DIR_CLOUD}" -batch -ui text -fastcheck true -dontchmod -times -links false -perms 0 -prefer "${DIR_CHIPHER}" -ignore "Name lost+found" -log -logfile "${LOG_TEMP}"
-   UNI_CD=$?
+   csync -v "${DIR_CHIPHER}" "${DIR_CLOUD}" > "${LOG_TEMP}"
+   SYNC_RC=$?
 
    # check for syncronization success
-   if [ ${UNI_CD} -gt 2 ]; then
-      # UNISON reports serious error
+   if [ ${SYNC_RC} -gt 0 ]; then
+      # CSYNC reports error
       echo "$(LocTx "E_Fail")" >> "${LOG_TEMP}"
       EXIT_CD=7
    else
       # check if any files transmitted
-      if [ $(wc -l "${LOG_TEMP}" | grep -oE '^[0-9]+') -lt 3 ]; then
+      FILE_CNT="$(cat "${LOG_TEMP}"|tail -n 1|grep -oE "File #\s*[0-9]+\/\s*[0-9]+"|sed -r -e "s/^.*?\/\s*//")"
+
+      if [ ${FILE_CNT} -lt 1 ]; then
          # if not: memorize that fact
          echo "$(LocTx "M_NoData")" >> "${LOG_TEMP}"
          EXIT_CD=8
       else
-         # check for logged synchronization errors
-         if [ $(grep -icP '((^| )(?<!0 )failed| error )' "${LOG_TEMP}") -ne 0 ]; then
-            echo "$(LocTx "E_Errors")" >> "${LOG_TEMP}"
-            EXIT_CD=9
-         else
-            echo "$(LocTx "M_Success")" >> "${LOG_TEMP}"
-         fi
+         echo "$(LocTx "M_Success")" >> "${LOG_TEMP}"
       fi
    fi
 

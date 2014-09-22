@@ -1,6 +1,6 @@
 github.org 
 GinFizz (→ BostonShaker)
-Version 0.3
+Version 0.4
 
 Sichere Dateiablage in der Cloud unter Linux - leichtgemacht!
 
@@ -8,8 +8,8 @@ GinFizz ist eine kleine, einfache Software, die das Speichern von Dateien in der
 Cloud mit sicherer AES-256-Ende-zu-Ende-Verschlüsselung unter Linux ermöglicht. 
 Das macht GinFizz nicht selbst. Vielmehr orchestriert und konfiguriert GinFizz 
 bekannte Open-Source-Stan­dardsoftware: EncFS dient zur Verschlüsselung, DavFS2 
-erledigt den Cloud-Zugriff, Unison synchronisiert lokale Daten mit der Cloud, 
-und RSync macht die Daten­sicherung.
+erledigt den Cloud-Zugriff, CSync synchronisiert lokale Daten mit der Cloud, 
+und RSync kümmert die Daten­sicherung.
 
 GinFizz' Anliegen sind Sicherheit, Privatsphäre und „Informationelle 
 Selbstbestimmung“. Es werden ausschließlich bereits zuvor verschlüsselte Daten 
@@ -25,7 +25,7 @@ GinFizz erschließt auch unkundigen Anwendern die sichere Cloud-Nutzung. Das
 Instal­lationsskript nimmt nur wenige Angaben zur Cloud-Verbindung entgegen, 
 richtet die genannten Programme vollautomatisch ein, und integriert alle 
 Bedienoptionen in die Desktop-Oberfläche. Die eigentliche Arbeit wird von EncFS, 
-DavFS2, Unison und Rsync erledigt - ein herzliches Dankeschön an die Macher 
+DavFS2, CSync und Rsync erledigt - ein herzliches Dankeschön an die Macher 
 dieser Programme! -, GinFizz macht deren Funktionen lediglich komfortabel und 
 ganz ohne Kommandozeile zugänglich.
 

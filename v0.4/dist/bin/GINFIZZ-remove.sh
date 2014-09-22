@@ -6,8 +6,8 @@
 
 PRGRM="GINFIZZ"
 PRGRM_LWR="$(echo "${PRGRM}"|tr 'A-Z' 'a-z')"
-PRGRM_VER="0.3"
-SCRIPT_VER="${PRGRM_VER}.5"
+PRGRM_VER="0.4"
+SCRIPT_VER="${PRGRM_VER}.0"
 SCRIPT_NAME="$(basename $0)"
 SCRIPT_DIR=""
 EXIT_CD=0
